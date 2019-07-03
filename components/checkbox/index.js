@@ -3,7 +3,7 @@ import './style.css';
 
 const Checkbox = () => {
     return (
-        <input type="checkbox" className="custom-checkbox" />
+        <input type="checkbox" />
     )
 };
 
