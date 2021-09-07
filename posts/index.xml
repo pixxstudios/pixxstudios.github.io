@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Gagandeep Singh</title>
+    <link>http://pixxstudios.com/posts/</link>
+    <description>Recent content in Posts on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gagandeep Singh</copyright>
+    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://pixxstudios.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using pre-commit hook in package.json</title>
+      <link>http://pixxstudios.com/posts/use-pre-commit-hook/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/use-pre-commit-hook/</guid>
+      <description>One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.</description>
+    </item>
+    
+    <item>
+      <title>undefined and null in Javascript</title>
+      <link>http://pixxstudios.com/posts/undefined-null-javascript/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/undefined-null-javascript/</guid>
+      <description>undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to.</description>
+    </item>
+    
+    <item>
+      <title>Docker - useful commands</title>
+      <link>http://pixxstudios.com/posts/docker-commands/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/docker-commands/</guid>
+      <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
+ Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls</description>
+    </item>
+    
+    <item>
+      <title>Using useState hook with the previous state</title>
+      <link>http://pixxstudios.com/posts/use-state-with-previous-state/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/use-state-with-previous-state/</guid>
+      <description>Let&amp;rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
+The code look perfectly fine and will work as expected in almost every time.</description>
+    </item>
+    
+    <item>
+      <title>Browser storage (overview)</title>
+      <link>http://pixxstudios.com/posts/browser-storage/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/browser-storage/</guid>
+      <description> Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  </description>
+    </item>
+    
+    <item>
+      <title>ES7 features you should be using.</title>
+      <link>http://pixxstudios.com/posts/es7-features/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/es7-features/</guid>
+      <description>Array includes() method The old way to check if some value is present inside an array was to use Array&amp;rsquo;s indexOf() method.</description>
+    </item>
+    
+    <item>
+      <title>Container vs Presentational Components in ReactJS</title>
+      <link>http://pixxstudios.com/posts/container-vs-presentational-compoenents/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/container-vs-presentational-compoenents/</guid>
+      <description>Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:</description>
+    </item>
+    
+  </channel>
+</rss>

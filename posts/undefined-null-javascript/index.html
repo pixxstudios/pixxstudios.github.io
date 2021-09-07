@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>undefined and null in Javascript - Gagandeep Singh</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="undefined and null in Javascript" />
+<meta property="og:description" content="undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&rsquo;t assign a value to." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://pixxstudios.com/posts/undefined-null-javascript/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-10-06T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-10-06T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="undefined and null in Javascript"/>
+<meta name="twitter:description" content="undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&rsquo;t assign a value to."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="http://pixxstudios.com/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://pixxstudios.com/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="http://pixxstudios.com/css/custom.css" />
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="http://pixxstudios.com/js/main.js"></script>
+	<script src="http://pixxstudios.com/js/abc.js"></script>
+	<script src="http://pixxstudios.com/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="http://pixxstudios.com/">
+	<h1 class="site-title"><a href="http://pixxstudios.com/">Gagandeep Singh</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/pixxstudios" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/pixxstudio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://linkedin.com/in/pixxstudios" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">undefined and null in Javascript</h1>
+			<div class="meta">Posted at &mdash; Oct 6, 2020</div>
+		</div>
+
+		<div class="markdown">
+			<h3 id="undefined"><strong>undefined</strong></h3>
+<p>In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&rsquo;t assign a value to. It&rsquo;s Javascript&rsquo;s way of telling that the value of this variable is not defined.</p>
+<p><img src="images/Screen-Shot-2020-10-04-at-9.44.03-PM.png" alt="undefined"></p>
+<p>Even a function in Javascript which does not return anything, will return undefined by default.</p>
+<p><img src="images/Screen-Shot-2020-10-04-at-9.46.23-PM.png" alt="undefined"></p>
+<p>So, to avoid any error we should never assign undefined to a variable manually.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#719e07">typeof</span> <span style="color:#cb4b16">undefined</span>
+outputs<span style="color:#719e07">:</span> <span style="color:#cb4b16">undefined</span>
+</code></pre></div><hr>
+<h3 id="null"><strong>null</strong></h3>
+<p>Unlike <strong>undefined</strong>, <strong>null</strong> (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</p>
+<p>When comparing null with undefined remember to use === instead of ==, reason being</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#cb4b16">null</span> <span style="color:#719e07">==</span> <span style="color:#cb4b16">undefined</span>
+returns <span style="color:#cb4b16">true</span> as it doesn&#39;t check <span style="color:#719e07">for</span> the type and performs type<span style="color:#719e07">-</span>conversion
+</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#cb4b16">null</span> <span style="color:#719e07">===</span> <span style="color:#cb4b16">undefined</span>
+<span style="color:#719e07">return</span> <span style="color:#cb4b16">false</span>
+</code></pre></div><div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#719e07">typeof</span> <span style="color:#cb4b16">null</span>
+is object and not <span style="color:#cb4b16">null</span>
+</code></pre></div><p>(more details <a href="https://2ality.com/2013/10/typeof-null.html"><em>here</em></a>)</p>
+
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/javascript">javascript</a></li>
+								
+								<li><a href="/tags/null">null</a></li>
+								
+								<li><a href="/tags/undefined">undefined</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Gagandeep Singh |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Gagandeep Singh</title>
+    <link>http://pixxstudios.com/tags/</link>
+    <description>Recent content in Tags on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gagandeep Singh</copyright>
+    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://pixxstudios.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>javascript</title>
+      <link>http://pixxstudios.com/tags/javascript/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nodejs</title>
+      <link>http://pixxstudios.com/tags/nodejs/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/nodejs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pre-commit</title>
+      <link>http://pixxstudios.com/tags/pre-commit/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/pre-commit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>null</title>
+      <link>http://pixxstudios.com/tags/null/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/null/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>undefined</title>
+      <link>http://pixxstudios.com/tags/undefined/</link>
+      <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/undefined/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>http://pixxstudios.com/tags/docker/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker commands</title>
+      <link>http://pixxstudios.com/tags/docker-commands/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/docker-commands/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reactjs</title>
+      <link>http://pixxstudios.com/tags/reactjs/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/reactjs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>usestate</title>
+      <link>http://pixxstudios.com/tags/usestate/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/usestate/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>browser-storage</title>
+      <link>http://pixxstudios.com/tags/browser-storage/</link>
+      <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/tags/browser-storage/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

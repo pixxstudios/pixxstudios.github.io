@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>reactjs on Gagandeep Singh</title>
+    <link>http://pixxstudios.com/tags/reactjs/</link>
+    <description>Recent content in reactjs on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Gagandeep Singh</copyright>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://pixxstudios.com/tags/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using useState hook with the previous state</title>
+      <link>http://pixxstudios.com/posts/use-state-with-previous-state/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://pixxstudios.com/posts/use-state-with-previous-state/</guid>
+      <description>Let&amp;rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
+The code look perfectly fine and will work as expected in almost every time.</description>
+    </item>
+    
+  </channel>
+</rss>
