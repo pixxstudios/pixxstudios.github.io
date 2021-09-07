@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>nodejs on Gagandeep Singh</title>
-    <link>http://pixxstudios.com/tags/nodejs/</link>
+    <link>https://pixxstudios.github.io/tags/nodejs/</link>
     <description>Recent content in nodejs on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Gagandeep Singh</copyright>
-    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://pixxstudios.com/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using pre-commit hook in package.json</title>
-      <link>http://pixxstudios.com/posts/use-pre-commit-hook/</link>
+      <link>https://pixxstudios.github.io/posts/use-pre-commit-hook/</link>
       <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://pixxstudios.com/posts/use-pre-commit-hook/</guid>
+      <guid>https://pixxstudios.github.io/posts/use-pre-commit-hook/</guid>
       <description>One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.</description>
     </item>
     

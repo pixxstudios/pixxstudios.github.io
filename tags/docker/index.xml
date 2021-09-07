@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>docker on Gagandeep Singh</title>
-    <link>http://pixxstudios.com/tags/docker/</link>
+    <link>https://pixxstudios.github.io/tags/docker/</link>
     <description>Recent content in docker on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Gagandeep Singh</copyright>
-    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://pixxstudios.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker - useful commands</title>
-      <link>http://pixxstudios.com/posts/docker-commands/</link>
+      <link>https://pixxstudios.github.io/posts/docker-commands/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://pixxstudios.com/posts/docker-commands/</guid>
+      <guid>https://pixxstudios.github.io/posts/docker-commands/</guid>
       <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
  Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls</description>
     </item>

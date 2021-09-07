@@ -2,70 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://pixxstudios.com/</loc>
+    <loc>https://pixxstudios.github.io/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/javascript/</loc>
+    <loc>https://pixxstudios.github.io/tags/javascript/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/nodejs/</loc>
+    <loc>https://pixxstudios.github.io/tags/nodejs/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/</loc>
+    <loc>https://pixxstudios.github.io/posts/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/pre-commit/</loc>
+    <loc>https://pixxstudios.github.io/tags/pre-commit/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/</loc>
+    <loc>https://pixxstudios.github.io/tags/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/use-pre-commit-hook/</loc>
+    <loc>https://pixxstudios.github.io/posts/use-pre-commit-hook/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/null/</loc>
+    <loc>https://pixxstudios.github.io/tags/null/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/undefined/</loc>
+    <loc>https://pixxstudios.github.io/tags/undefined/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/undefined-null-javascript/</loc>
+    <loc>https://pixxstudios.github.io/posts/undefined-null-javascript/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/docker/</loc>
+    <loc>https://pixxstudios.github.io/tags/docker/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/docker-commands/</loc>
+    <loc>https://pixxstudios.github.io/posts/docker-commands/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/docker-commands/</loc>
+    <loc>https://pixxstudios.github.io/tags/docker-commands/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/reactjs/</loc>
+    <loc>https://pixxstudios.github.io/tags/reactjs/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/usestate/</loc>
+    <loc>https://pixxstudios.github.io/tags/usestate/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/use-state-with-previous-state/</loc>
+    <loc>https://pixxstudios.github.io/posts/use-state-with-previous-state/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/browser-storage/</loc>
+    <loc>https://pixxstudios.github.io/posts/browser-storage/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/tags/browser-storage/</loc>
+    <loc>https://pixxstudios.github.io/tags/browser-storage/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/es7-features/</loc>
+    <loc>https://pixxstudios.github.io/posts/es7-features/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/posts/container-vs-presentational-compoenents/</loc>
+    <loc>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</loc>
     <lastmod>2017-10-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://pixxstudios.com/about/</loc>
+    <loc>https://pixxstudios.github.io/about/</loc>
   </url><url>
-    <loc>http://pixxstudios.com/contact/</loc>
+    <loc>https://pixxstudios.github.io/contact/</loc>
   </url><url>
-    <loc>http://pixxstudios.com/work/</loc>
+    <loc>https://pixxstudios.github.io/work/</loc>
   </url>
 </urlset>
