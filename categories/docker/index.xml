@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>docker on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/categories/docker/</link>
+    <description>Recent content in docker on Gagandeep Singh</description>
+    <image>
+      <url>https://pixxstudios.github.io/papermod-cover.png</url>
+      <link>https://pixxstudios.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 04 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/categories/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Docker - useful commands</title>
+      <link>https://pixxstudios.github.io/posts/docker-commands/</link>
+      <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/docker-commands/</guid>
+      <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
+ Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
+ Show running containers docker ps docker ps --all This will list all the containers that were ever created on your machine.
+ Restart stopped containers docker start &amp;lt;container id&amp;gt; example:
+run docker ps &amp;ndash;all to get the list of containers</description>
+    </item>
+    
+  </channel>
+</rss>

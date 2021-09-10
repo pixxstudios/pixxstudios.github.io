@@ -1,73 +1,216 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Browser storage (overview) - Gagandeep Singh</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta property="og:title" content="Browser storage (overview)" />
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Browser storage (overview) | Gagandeep Singh</title>
+<meta name="keywords" content="browser-storage, javascript" />
+<meta name="description" content=" Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  ">
+<meta name="author" content="">
+<link rel="canonical" href="https://pixxstudios.github.io/posts/browser-storage/" />
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.4ca080c726d40757147c17cee30e2292c13898aafa5a43625ede20a3ee638bf0.css" integrity="sha256-TKCAxybUB1cUfBfO4w4iksE4mKr6WkNiXt4go&#43;5ji/A=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="https://pixxstudios.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://pixxstudios.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://pixxstudios.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://pixxstudios.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://pixxstudios.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<meta name="generator" content="Hugo 0.84.2" />
+<meta property="og:title" content="Browser storage (overview)" />
 <meta property="og:description" content=" Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://pixxstudios.github.io/posts/browser-storage/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://pixxstudios.github.io/posts/browser-storage/" /><meta property="og:image" content="https://pixxstudios.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2020-06-24T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2020-06-24T00:00:00&#43;00:00" />
 
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://pixxstudios.github.io/papermod-cover.png"/>
+
 <meta name="twitter:title" content="Browser storage (overview)"/>
 <meta name="twitter:description" content=" Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  "/>
-<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
 
-	<link rel="stylesheet" type="text/css" media="screen" href="https://pixxstudios.github.io/css/normalize.css" />
-	<link rel="stylesheet" type="text/css" media="screen" href="https://pixxstudios.github.io/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io/css/custom.css" />
-	
 
-	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-	<script src="https://pixxstudios.github.io/js/main.js"></script>
-	<script src="https://pixxstudios.github.io/js/abc.js"></script>
-	<script src="https://pixxstudios.github.io/js/xyz.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://pixxstudios.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Browser storage (overview)",
+      "item": "https://pixxstudios.github.io/posts/browser-storage/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Browser storage (overview)",
+  "name": "Browser storage (overview)",
+  "description": " Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  ",
+  "keywords": [
+    "browser-storage", "javascript"
+  ],
+  "articleBody": " Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  ",
+  "wordCount" : "156",
+  "inLanguage": "en",
+  "datePublished": "2020-06-24T00:00:00Z",
+  "dateModified": "2020-06-24T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://pixxstudios.github.io/posts/browser-storage/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gagandeep Singh",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://pixxstudios.github.io/favicon.ico"
+    }
+  }
+}
+</script>
 </head>
 
-<body>
-	<div class="container wrapper post">
-		<div class="header">
-	<base href="https://pixxstudios.github.io/">
-	<h1 class="site-title"><a href="https://pixxstudios.github.io/">Gagandeep Singh</a></h1>
-	<div class="site-description"><h2></h2><nav class="nav social">
-			<ul class="flat"><a href="https://github.com/pixxstudios" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/pixxstudio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://linkedin.com/in/pixxstudios" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
-		</nav>
-	</div>
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
 
-	<nav class="nav">
-		<ul class="flat">
-			
-			<li>
-				<a href="/">Home</a>
-			</li>
-			
-			<li>
-				<a href="/posts">All posts</a>
-			</li>
-			
-			<li>
-				<a href="/about">About</a>
-			</li>
-			
-			<li>
-				<a href="/tags">Tags</a>
-			</li>
-			
-		</ul>
-	</nav>
+</script>
+<noscript>
+    <style type="text/css">
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://pixxstudios.github.io/" accesskey="h" title="Gagandeep Singh (Alt + H)">Gagandeep Singh</a>
+            <span class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://pixxstudios.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://pixxstudios.github.io/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://pixxstudios.github.io/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://pixxstudios.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://pixxstudios.github.io/posts/">Posts</a></div>
+    <h1 class="post-title">
+      Browser storage (overview)
+    </h1>
+    <div class="post-meta">June 24, 2020&nbsp;·&nbsp;1 min&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/browser-storage.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#local-storage-session-storage" aria-label="Local Storage /Session Storage">Local Storage /Session Storage</a></li>
+                <li>
+                    <a href="#cookies" aria-label="Cookies">Cookies</a></li>
+                <li>
+                    <a href="#indexeddb" aria-label="IndexedDB">IndexedDB</a>
+                </li>
+            </ul>
+        </div>
+    </details>
 </div>
 
-
-		<div class="post-header">
-			<h1 class="title">Browser storage (overview)</h1>
-			<div class="meta">Posted at &mdash; Jun 24, 2020</div>
-		</div>
-
-		<div class="markdown">
-			<ul>
+  <div class="post-content"><ul>
 <li>Storing data on the machine of the user</li>
 <li>Data is available to the user on that particular machine and hence cannot be shared with anyone else</li>
 <li>Example: Storing data such as items in my shopping cart or recently viewed products</li>
@@ -80,14 +223,14 @@
 </li>
 </ul>
 <hr>
-<h4 id="local-storage-session-storage">Local Storage /Session Storage</h4>
+<h4 id="local-storage-session-storage">Local Storage /Session Storage<a hidden class="anchor" aria-hidden="true" href="#local-storage-session-storage">#</a></h4>
 <ul>
 <li>key-value pairs to store data</li>
 <li>data can read/write from/to local or session storage only via javascript or user</li>
 <li>better for storing simple values and not for storing complex values</li>
 </ul>
 <hr>
-<h4 id="cookies">Cookies</h4>
+<h4 id="cookies">Cookies<a hidden class="anchor" aria-hidden="true" href="#cookies">#</a></h4>
 <ul>
 <li>simple key-value pairs with some configuration options</li>
 <li>can be cleared by using javascript or by the user</li>
@@ -95,7 +238,7 @@
 <li>not good for complex data</li>
 </ul>
 <hr>
-<h4 id="indexeddb">IndexedDB</h4>
+<h4 id="indexeddb">IndexedDB<a hidden class="anchor" aria-hidden="true" href="#indexeddb">#</a></h4>
 <ul>
 <li>client side database</li>
 <li>can be used with a query language</li>
@@ -103,43 +246,144 @@
 <li>can be cleared by user or javascript</li>
 </ul>
 
-		</div>
 
-		<div class="post-tags">
-			
-				
-					<nav class="nav tags">
-							<ul class="flat">
-								
-								<li><a href="/tags/browser-storage">browser-storage</a></li>
-								
-								<li><a href="/tags/javascript">javascript</a></li>
-								
-							</ul>
-					</nav>
-				
-			
-		</div>
-		</div>
-	<div class="footer wrapper">
-	<nav class="nav">
-		<div> © Gagandeep Singh |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
-	</nav>
-</div>
+  </div>
 
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://pixxstudios.github.io/tags/browser-storage/">browser-storage</a></li>
+      <li><a href="https://pixxstudios.github.io/tags/javascript/">javascript</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://pixxstudios.github.io/posts/use-state-with-previous-state/">
+    <span class="title">« Prev Page</span>
+    <br>
+    <span>Using useState hook with the previous state</span>
+  </a>
+  <a class="next" href="https://pixxstudios.github.io/posts/es7-features/">
+    <span class="title">Next Page »</span>
+    <br>
+    <span>ES7 features you should be using.</span>
+  </a>
+</nav>
 
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2021 <a href="https://pixxstudios.github.io/">Gagandeep Singh</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
 
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-123-45', 'auto');
-	
-	ga('send', 'pageview');
-}
+<script>
+    let menu = document.getElementById('menu')
+    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+    menu.onscroll = function () {
+        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
 </script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
 
-<script>feather.replace()</script>
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerText = 'copy';
+
+        function copyingDone() {
+            copybutton.innerText = 'copied!';
+            setTimeout(() => {
+                copybutton.innerText = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
 </body>
+
 </html>

@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pixxstudios.github.io/categories/</loc>
+    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pixxstudios.github.io/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/javascript/</loc>
+    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/javascript/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/nodejs/</loc>
@@ -35,6 +41,9 @@
     <loc>https://pixxstudios.github.io/tags/docker/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://pixxstudios.github.io/categories/docker/</loc>
+    <lastmod>2020-10-04T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://pixxstudios.github.io/posts/docker-commands/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
@@ -42,6 +51,9 @@
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/reactjs/</loc>
+    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/reactjs/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/usestate/</loc>
@@ -67,5 +79,7 @@
     <loc>https://pixxstudios.github.io/contact/</loc>
   </url><url>
     <loc>https://pixxstudios.github.io/work/</loc>
+  </url><url>
+    <loc>https://pixxstudios.github.io/series/</loc>
   </url>
 </urlset>

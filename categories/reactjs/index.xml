@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>reactjs on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/categories/reactjs/</link>
+    <description>Recent content in reactjs on Gagandeep Singh</description>
+    <image>
+      <url>https://pixxstudios.github.io/papermod-cover.png</url>
+      <link>https://pixxstudios.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/categories/reactjs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using useState hook with the previous state</title>
+      <link>https://pixxstudios.github.io/posts/use-state-with-previous-state/</link>
+      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/use-state-with-previous-state/</guid>
+      <description>Let&amp;rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
+The code look perfectly fine and will work as expected in almost every time.
+BUT the issue with this code is that setCount() doesn&amp;rsquo;t guarantee that the previous count that it&amp;rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
+To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.</description>
+    </item>
+    
+    <item>
+      <title>Container vs Presentational Components in ReactJS</title>
+      <link>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</link>
+      <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</guid>
+      <description>Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
+ It is best suitable for components which only consists of a render method They are also called stateless components since they don&amp;rsquo;t have an internal state and just make use of props to display the data It is not a class which extends React.Component It is just a function which accepts props and returns the rendered component You can define propTypes and defaultProps on the function  let helloComponent = (props) =&amp;gt; { return( {props.</description>
+    </item>
+    
+  </channel>
+</rss>

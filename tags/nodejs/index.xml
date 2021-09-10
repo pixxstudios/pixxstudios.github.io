@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>nodejs on Gagandeep Singh</title>
     <link>https://pixxstudios.github.io/tags/nodejs/</link>
     <description>Recent content in nodejs on Gagandeep Singh</description>
+    <image>
+      <url>https://pixxstudios.github.io/papermod-cover.png</url>
+      <link>https://pixxstudios.github.io/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>© Gagandeep Singh</copyright>
     <lastBuildDate>Thu, 02 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using pre-commit hook in package.json</title>
@@ -14,7 +16,9 @@
       <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/use-pre-commit-hook/</guid>
-      <description>One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.</description>
+      <description>One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.
+Adding a pre-commit hook forces to check the lint and run unit tests (or any other script) to be sure that everything is good before committing changes.
+npm i --save-dev pre-commit Next step is to update the package.</description>
     </item>
     
   </channel>
