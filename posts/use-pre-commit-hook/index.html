@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Using pre-commit hook in package.json - Gagandeep Singh</title><link rel="icon" type="image/png" href=icons/myicon.png /><meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta property="og:title" content="Using pre-commit hook in package.json" />
+<meta property="og:description" content="One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pixxstudios.github.io/posts/use-pre-commit-hook/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2021-09-02T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2021-09-02T00:00:00&#43;00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Using pre-commit hook in package.json"/>
+<meta name="twitter:description" content="One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests."/>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,300italic,400italic|Raleway:200,300" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" media="screen" href="https://pixxstudios.github.io/css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="https://pixxstudios.github.io/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io/css/custom.css" />
+	
+
+	<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+	<script src="https://pixxstudios.github.io/js/main.js"></script>
+	<script src="https://pixxstudios.github.io/js/abc.js"></script>
+	<script src="https://pixxstudios.github.io/js/xyz.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+
+<body>
+	<div class="container wrapper post">
+		<div class="header">
+	<base href="https://pixxstudios.github.io/">
+	<h1 class="site-title"><a href="https://pixxstudios.github.io/">Gagandeep Singh</a></h1>
+	<div class="site-description"><h2></h2><nav class="nav social">
+			<ul class="flat"><a href="https://github.com/pixxstudios" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/pixxstudio" title="Twitter"><i data-feather="twitter"></i></a><a href="https://linkedin.com/in/pixxstudios" title="Linkedin"><i data-feather="linkedin"></i></a></ul>
+		</nav>
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			
+			<li>
+				<a href="/">Home</a>
+			</li>
+			
+			<li>
+				<a href="/posts">All posts</a>
+			</li>
+			
+			<li>
+				<a href="/about">About</a>
+			</li>
+			
+			<li>
+				<a href="/tags">Tags</a>
+			</li>
+			
+		</ul>
+	</nav>
+</div>
+
+
+		<div class="post-header">
+			<h1 class="title">Using pre-commit hook in package.json</h1>
+			<div class="meta">Posted at &mdash; Sep 2, 2021</div>
+		</div>
+
+		<div class="markdown">
+			<p>One of the <em>traits</em> of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.</p>
+<p>Adding a pre-commit hook forces to check the lint and run unit tests (or any other script) to be sure that everything is good before committing changes.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">npm i <span style="color:#719e07">--</span>save<span style="color:#719e07">-</span>dev pre<span style="color:#719e07">-</span>commit
+</code></pre></div><p>Next step is to update the package.json file to included pre-commit hook.</p>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#2aa198">&#34;pre-commit&#34;</span><span style="color:#719e07">:</span> \[
+    <span style="color:#2aa198">&#34;test&#34;</span>,
+    <span style="color:#2aa198">&#34;lint&#34;</span>
+  \]
+</code></pre></div><p>Now whenever you try to commit any changes, the &ldquo;test&rdquo; script will run first and then the &ldquo;lint&rdquo; script. It will show an error in case unit tests are not passing or there is a linting issue.</p>
+<h4 id="skip-running-the-pre-commit"><strong>Skip running the pre-commit</strong></h4>
+<div class="highlight"><pre style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">add <span style="color:#719e07">--</span>no<span style="color:#719e07">-</span>verify to the git command
+</code></pre></div>
+		</div>
+
+		<div class="post-tags">
+			
+				
+					<nav class="nav tags">
+							<ul class="flat">
+								
+								<li><a href="/tags/javascript">javascript</a></li>
+								
+								<li><a href="/tags/nodejs">nodejs</a></li>
+								
+								<li><a href="/tags/pre-commit">pre-commit</a></li>
+								
+							</ul>
+					</nav>
+				
+			
+		</div>
+		</div>
+	<div class="footer wrapper">
+	<nav class="nav">
+		<div> © Gagandeep Singh |  <a href="https://github.com/vividvilla/ezhil">Ezhil theme</a> | Built with <a href="https://gohugo.io">Hugo</a></div>
+	</nav>
+</div>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-123-45', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+<script>feather.replace()</script>
+</body>
+</html>
