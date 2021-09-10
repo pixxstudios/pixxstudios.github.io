@@ -11,7 +11,7 @@
 The code look perfectly fine and will work as expected in almost every time.
 BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the previous count that it&rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
 To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.">
-<meta name="author" content="">
+<meta name="author" content="Gagandeep Singh">
 <link rel="canonical" href="https://pixxstudios.github.io/posts/use-state-with-previous-state/" />
 <link crossorigin="anonymous" href="/assets/css/stylesheet.min.4ca080c726d40757147c17cee30e2292c13898aafa5a43625ede20a3ee638bf0.css" integrity="sha256-TKCAxybUB1cUfBfO4w4iksE4mKr6WkNiXt4go&#43;5ji/A=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
@@ -79,6 +79,10 @@ To make sure that we always use the latest previous state for calculating the ne
   "inLanguage": "en",
   "datePublished": "2020-10-02T00:00:00Z",
   "dateModified": "2020-10-02T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Gagandeep Singh"
+  },
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://pixxstudios.github.io/posts/use-state-with-previous-state/"
@@ -198,10 +202,9 @@ To make sure that we always use the latest previous state for calculating the ne
     <h1 class="post-title">
       Using useState hook with the previous state
     </h1>
-    <div class="post-meta">October 2, 2020&nbsp;·&nbsp;1 min&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use-state-with-previous-state.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta">October 2, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Gagandeep Singh&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use-state-with-previous-state.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
 </div>
   </header> 
-
   <div class="post-content"><p>Let&rsquo;s take a very basic use case of the useState() hook; updating the <strong>count</strong> variable on each click.</p>
 <p><img loading="lazy" src="images/carbon-2-1024x479.png" alt="usestate"  />
 </p>
