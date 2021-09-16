@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>go on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/tags/go/</link>
+    <description>Recent content in go on Gagandeep Singh</description>
+    <image>
+      <url>https://pixxstudios.github.io/papermod-cover.png</url>
+      <link>https://pixxstudios.github.io/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go - Arrays and Slices</title>
+      <link>https://pixxstudios.github.io/posts/go-slice-vs-array/</link>
+      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/go-slice-vs-array/</guid>
+      <description>Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
+    </item>
+    
+  </channel>
+</rss>

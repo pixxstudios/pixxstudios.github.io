@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pixxstudios.github.io/categories/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/go/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/go/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/go-slice-vs-array/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/golang/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/</loc>
+    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/javascript/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
@@ -17,13 +35,7 @@
     <loc>https://pixxstudios.github.io/tags/nodejs/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://pixxstudios.github.io/tags/pre-commit/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/tags/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/posts/use-pre-commit-hook/</loc>
@@ -75,10 +87,7 @@
     <lastmod>2017-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/about/</loc>
-  </url><url>
-    <loc>https://pixxstudios.github.io/contact/</loc>
-  </url><url>
-    <loc>https://pixxstudios.github.io/work/</loc>
+    <priority>0</priority>
   </url><url>
     <loc>https://pixxstudios.github.io/series/</loc>
   </url>

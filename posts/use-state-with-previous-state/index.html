@@ -13,7 +13,7 @@ BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the
 To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.">
 <meta name="author" content="Gagandeep Singh">
 <link rel="canonical" href="https://pixxstudios.github.io/posts/use-state-with-previous-state/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.4ca080c726d40757147c17cee30e2292c13898aafa5a43625ede20a3ee638bf0.css" integrity="sha256-TKCAxybUB1cUfBfO4w4iksE4mKr6WkNiXt4go&#43;5ji/A=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.5b356452097f4f55796ea06a8d8cfa5508803dfd2a62e492988043baf23e21dc.css" integrity="sha256-WzVkUgl/T1V5bqBqjYz6VQiAPf0qYuSSmIBDuvI&#43;Idw=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
     onload="hljs.initHighlightingOnLoad();"></script>
 <link rel="icon" href="https://pixxstudios.github.io/favicon.ico">
@@ -24,7 +24,43 @@ To make sure that we always use the latest previous state for calculating the ne
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <meta name="generator" content="Hugo 0.84.2" />
-<meta property="og:title" content="Using useState hook with the previous state" />
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: #1d1e20;
+                --entry: #2e2e33;
+                --primary: rgba(255, 255, 255, 0.84);
+                --secondary: rgba(255, 255, 255, 0.56);
+                --tertiary: rgba(255, 255, 255, 0.16);
+                --content: rgba(255, 255, 255, 0.74);
+                --hljs-bg: #2e2e33;
+                --code-bg: #37383e;
+                --border: #333;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Using useState hook with the previous state" />
 <meta property="og:description" content="Let&rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
 The code look perfectly fine and will work as expected in almost every time.
 BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the previous count that it&rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
@@ -110,43 +146,6 @@ To make sure that we always use the latest previous state for calculating the ne
     }
 
 </script>
-<noscript>
-    <style type="text/css">
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript>
 
 <header class="header">
     <nav class="nav">
@@ -202,16 +201,16 @@ To make sure that we always use the latest previous state for calculating the ne
     <h1 class="post-title">
       Using useState hook with the previous state
     </h1>
-    <div class="post-meta">October 2, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Gagandeep Singh&nbsp;|&nbsp;<a href="https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content/posts/use-state-with-previous-state.md" rel="noopener noreferrer" target="_blank">Suggest Changes</a>
+    <div class="post-meta">October 2, 2020&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Gagandeep Singh
 </div>
   </header> 
   <div class="post-content"><p>Let&rsquo;s take a very basic use case of the useState() hook; updating the <strong>count</strong> variable on each click.</p>
-<p><img loading="lazy" src="images/carbon-2-1024x479.png" alt="usestate"  />
+<p><img loading="lazy" src="/images/carbon-2-1024x479.png" alt="usestate"  />
 </p>
 <p>The code look perfectly fine and will work as expected in almost every time.</p>
 <p><em>BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the previous <strong>count</strong> that it&rsquo;s going to use to either increment and decrement to get the next state will be the latest one.</em></p>
 <p>To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.</p>
-<p><img loading="lazy" src="images/carbon-3-1024x377.png" alt="usestate"  />
+<p><img loading="lazy" src="/images/carbon-3-1024x377.png" alt="usestate"  />
 </p>
 <p>This way we can guarantee that we are always using the latest state value before using it.</p>
 
