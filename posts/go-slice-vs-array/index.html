@@ -1,201 +1,110 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Go - Arrays and Slices | Gagandeep Singh</title>
-<meta name="keywords" content="go, golang" />
-<meta name="description" content="Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is [4]string.">
-<meta name="author" content="Gagandeep Singh">
-<link rel="canonical" href="https://pixxstudios.github.io/posts/go-slice-vs-array/" />
-<link crossorigin="anonymous" href="/assets/css/stylesheet.min.e858a2788cb13ebd98f5541f3bf452ea6544dab4ece24245ef2bb0b93b539711.css" integrity="sha256-6FiieIyxPr2Y9VQfO/RS6mVE2rTs4kJF7yuwuTtTlxE=" rel="preload stylesheet" as="style">
-<script defer crossorigin="anonymous" src="/assets/js/highlight.min.7680afc38aa6b15ddf158a4f3780b7b1f7dde7e91d26f073e6229bb7a0793c92.js" integrity="sha256-doCvw4qmsV3fFYpPN4C3sffd5&#43;kdJvBz5iKbt6B5PJI="
-    onload="hljs.initHighlightingOnLoad();"></script>
-<link rel="icon" href="https://pixxstudios.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://pixxstudios.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://pixxstudios.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://pixxstudios.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://pixxstudios.github.io/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.84.2" />
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: #1d1e20;
-                --entry: #2e2e33;
-                --primary: rgba(255, 255, 255, 0.84);
-                --secondary: rgba(255, 255, 255, 0.56);
-                --tertiary: rgba(255, 255, 255, 0.16);
-                --content: rgba(255, 255, 255, 0.74);
-                --hljs-bg: #2e2e33;
-                --code-bg: #37383e;
-                --border: #333;
-            }
-
-            .list {
-                background: var(--theme);
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
-
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
-
-    </style>
-</noscript><meta property="og:title" content="Go - Arrays and Slices" />
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Go - Arrays and Slices - Gagandeep Singh</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Go - Arrays and Slices" />
 <meta property="og:description" content="Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is [4]string." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://pixxstudios.github.io/posts/go-slice-vs-array/" /><meta property="og:image" content="https://pixxstudios.github.io/papermod-cover.png"/><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://pixxstudios.github.io/posts/go-slice-vs-array/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2021-09-10T00:00:00&#43;00:00" />
 <meta property="article:modified_time" content="2021-09-10T00:00:00&#43;00:00" />
 
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://pixxstudios.github.io/papermod-cover.png"/>
 
+		<meta itemprop="name" content="Go - Arrays and Slices">
+<meta itemprop="description" content="Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is [4]string."><meta itemprop="datePublished" content="2021-09-10T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2021-09-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="200">
+<meta itemprop="keywords" content="go,golang," />
+		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Go - Arrays and Slices"/>
 <meta name="twitter:description" content="Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is [4]string."/>
 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://pixxstudios.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Go - Arrays and Slices",
-      "item": "https://pixxstudios.github.io/posts/go-slice-vs-array/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Go - Arrays and Slices",
-  "name": "Go - Arrays and Slices",
-  "description": "Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it\u0026rsquo;s length is 4, so its type is [4]string.",
-  "keywords": [
-    "go", "golang"
-  ],
-  "articleBody": "Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it’s length is 4, so its type is [4]string.\nvar names [4]string The default values of an array are the Zero values, which is based on the data type of array. In the above array since the data type is string, so the defult Zero values in this case will be \"\" (empty string).\nValues can be set like this:\nname[0]=\"Eeny\" name[1]=\"Meeny\" name[2]=\"Miny\" name[3]=\"Moe\" There is another way to define and initiaize array in a single statement.\nname := [4]string{\"Eeny\", \"Meeny\", \"Miny\", \"Moe\"} or\nname := [...]string{\"Eeny\", \"Meeny\", \"Miny\", \"Moe\"} The three dots will check the number of elements to be added and create the Array of that length.\nOnce the length of array has been defined, it cannot be changed. An array of size 4 cannot have 5 or more elements.\nSlices ",
-  "wordCount" : "200",
-  "inLanguage": "en",
-  "datePublished": "2021-09-10T00:00:00Z",
-  "dateModified": "2021-09-10T00:00:00Z",
-  "author":{
-    "@type": "Person",
-    "name": "Gagandeep Singh"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://pixxstudios.github.io/posts/go-slice-vs-array/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Gagandeep Singh",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://pixxstudios.github.io/favicon.ico"
-    }
-  }
-}
-</script>
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
 </head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Gagandeep Singh" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Gagandeep Singh</div>
+					<div class="logo__tagline">javascript</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/other-posts/">
+				
+				<span class="menu__text">Other posts</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
 
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://pixxstudios.github.io/" accesskey="h" title="Gagandeep Singh (Alt + H)">Gagandeep Singh</a>
-            <span class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </span>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="https://pixxstudios.github.io/about/" title="About">
-                    <span>About</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://pixxstudios.github.io/categories/" title="Categories">
-                    <span>Categories</span>
-                </a>
-            </li>
-            <li>
-                <a href="https://pixxstudios.github.io/tags/" title="Tags">
-                    <span>Tags</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
+	</div>
 </header>
-<main class="main">
-
-<article class="post-single">
-  <header class="post-header">
-    <div class="breadcrumbs"><a href="https://pixxstudios.github.io/">Home</a>&nbsp;»&nbsp;<a href="https://pixxstudios.github.io/posts/">Posts</a></div>
-    <h1 class="post-title">
-      Go - Arrays and Slices
-    </h1>
-    <div class="post-meta">September 10, 2021&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Gagandeep Singh
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Go - Arrays and Slices</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
 </div>
-  </header> 
-  <div class="post-content"><h3 id="arrays">Arrays<a hidden class="anchor" aria-hidden="true" href="#arrays">#</a></h3>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-09-10T00:00:00Z">2021-09-10</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/go/" rel="category">go</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#arrays">Arrays</a></li>
+        <li><a href="#slices">Slices</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h3 id="arrays">Arrays</h3>
 <p>Like any other programming language, <em>arrays</em> in Go are used to group elements of <strong>fixed length</strong> together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is <strong>[4]string</strong>.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">var</span> <span style="color:#a6e22e">names</span> [<span style="color:#ae81ff">4</span>]<span style="color:#66d9ef">string</span>
 </code></pre></div><p>The default values of an array are the Zero values, which is based on the data type of array. In the above array since the data type is string, so the defult Zero values in this case will be &quot;&quot; (empty string).</p>
@@ -210,141 +119,63 @@
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">  <span style="color:#a6e22e">name</span> <span style="color:#f92672">:=</span> [<span style="color:#f92672">...</span>]<span style="color:#66d9ef">string</span>{<span style="color:#e6db74">&#34;Eeny&#34;</span>, <span style="color:#e6db74">&#34;Meeny&#34;</span>, <span style="color:#e6db74">&#34;Miny&#34;</span>, <span style="color:#e6db74">&#34;Moe&#34;</span>}
 </code></pre></div><p>The three dots will check the number of elements to be added and create the Array of that length.</p>
 <p><em>Once the length of array has been defined, it cannot be changed</em>. An array of size 4 cannot have 5 or more elements.</p>
-<h3 id="slices">Slices<a hidden class="anchor" aria-hidden="true" href="#slices">#</a></h3>
+<h3 id="slices">Slices</h3>
 
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/go/" rel="tag">go</a>
+		</li>
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/golang/" rel="tag">golang</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
 
-  </div>
+<div class="authorbox clearfix">
+	<figure class="authorbox__avatar">
+		<img alt="Gagandeep Singh avatar" src="/img/avatar.png" class="avatar" height="90" width="90">
+	</figure>
+	<div class="authorbox__header">
+		<span class="authorbox__name">About Gagandeep Singh</span>
+	</div>
+</div>
 
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="https://pixxstudios.github.io/tags/go/">go</a></li>
-      <li><a href="https://pixxstudios.github.io/tags/golang/">golang</a></li>
-    </ul>
-<nav class="paginav">
-  <a class="next" href="https://pixxstudios.github.io/posts/use-pre-commit-hook/">
-    <span class="title">Next Page »</span>
-    <br>
-    <span>Using pre-commit hook in package.json</span>
-  </a>
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/use-pre-commit-hook/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Using pre-commit hook in package.json</p>
+		</a>
+	</div>
 </nav>
 
-  </footer>
-</article>
-    </main>
-    
-<footer class="footer">
-    <span>&copy; 2021 <a href="https://pixxstudios.github.io/">Gagandeep Singh</a></span>
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="/about/">About</a> | <a class="footer__link" href="/other-posts/">Other posts</a>
+</div>
+		<div class="footer__copyright">
+			&copy; 2021 John Doe.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
 </footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu')
-    menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-    menu.onscroll = function () {
-        localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerText = 'copy';
-
-        function copyingDone() {
-            copybutton.innerText = 'copied!';
-            setTimeout(() => {
-                copybutton.innerText = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
-</script>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
 </body>
-
 </html>
