@@ -8,16 +8,16 @@
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 		<meta property="og:title" content="Posts" />
-<meta property="og:description" content="John Doe&#39;s Personal blog about everything" />
+<meta property="og:description" content="javascript, nodejs and other things" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://pixxstudios.github.io/posts/" />
 
 
 		<meta itemprop="name" content="Posts">
-<meta itemprop="description" content="John Doe&#39;s Personal blog about everything">
+<meta itemprop="description" content="javascript, nodejs and other things">
 		<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Posts"/>
-<meta name="twitter:description" content="John Doe&#39;s Personal blog about everything"/>
+<meta name="twitter:description" content="javascript, nodejs and other things"/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -40,7 +40,7 @@
 		<a class="logo__link" href="/" title="Gagandeep Singh" rel="home">
 			<div class="logo__item logo__text">
 					<div class="logo__title">Gagandeep Singh</div>
-					<div class="logo__tagline">javascript</div>
+					
 				</div>
 		</a>
 	</div>
@@ -94,6 +94,9 @@
 	<div class="content list__excerpt post__content clearfix">
 		Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&rsquo;s length is 4, so its type is [4]string.
 	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/go-slice-vs-array/">Read more…</a>
+	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
@@ -114,6 +117,9 @@
 		One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.
 Adding a pre-commit hook forces to check the lint and run unit tests (or any other script) to be sure that everything is good before committing changes.
 npm i --save-dev pre-commit Next step is to update the package.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/use-pre-commit-hook/">Read more…</a>
 	</div>
 </article><article class="list__item post">
 	
@@ -136,6 +142,9 @@ npm i --save-dev pre-commit Next step is to update the package.
 Even a function in Javascript which does not return anything, will return undefined by default.
 So, to avoid any error we should never assign undefined to a variable manually.
 typeof undefined outputs: undefined  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/undefined-null-javascript/">Read more…</a>
 	</div>
 </article><article class="list__item post">
 	
@@ -160,6 +169,9 @@ typeof undefined outputs: undefined  null Unlike undefined, null (another primit
  Restart stopped containers docker start &lt;container id&gt; example:
 run docker ps &ndash;all to get the list of containers
 	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/docker-commands/">Read more…</a>
+	</div>
 </article><article class="list__item post">
 	
 	<header class="list__header">
@@ -181,6 +193,9 @@ run docker ps &ndash;all to get the list of containers
 The code look perfectly fine and will work as expected in almost every time.
 BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the previous count that it&rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
 To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/use-state-with-previous-state/">Read more…</a>
 	</div>
 </article>
 </main>
@@ -293,7 +308,7 @@ To make sure that we always use the latest previous state for calculating the ne
 	<a class="footer__link" href="/about/">About</a> | <a class="footer__link" href="/other-posts/">Other posts</a>
 </div>
 		<div class="footer__copyright">
-			&copy; 2021 John Doe.
+			&copy; 2021 Gagandeep Singh.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
