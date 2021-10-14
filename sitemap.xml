@@ -3,28 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pixxstudios.github.io/categories/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/tags/go/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/categories/go/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/posts/go-slice-vs-array/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/tags/golang/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/posts/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/</loc>
-    <lastmod>2021-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/11.-tuples-typescript/</loc>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/typescript/</loc>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/typescript/</loc>
+    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/javascript/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
@@ -38,7 +35,7 @@
     <loc>https://pixxstudios.github.io/tags/pre-commit/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/use-pre-commit-hook/</loc>
+    <loc>https://pixxstudios.github.io/posts/7.-use-pre-commit-hook/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/null/</loc>
@@ -47,7 +44,7 @@
     <loc>https://pixxstudios.github.io/tags/undefined/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/undefined-null-javascript/</loc>
+    <loc>https://pixxstudios.github.io/posts/6.-undefined-null-javascript/</loc>
     <lastmod>2020-10-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/docker/</loc>
@@ -56,7 +53,7 @@
     <loc>https://pixxstudios.github.io/categories/docker/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/docker-commands/</loc>
+    <loc>https://pixxstudios.github.io/posts/5.-docker-commands/</loc>
     <lastmod>2020-10-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/docker-commands/</loc>
@@ -71,19 +68,19 @@
     <loc>https://pixxstudios.github.io/tags/usestate/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/use-state-with-previous-state/</loc>
+    <loc>https://pixxstudios.github.io/posts/4.-use-state-with-previous-state/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/browser-storage/</loc>
+    <loc>https://pixxstudios.github.io/posts/3.-browser-storage/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/browser-storage/</loc>
     <lastmod>2020-06-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/es7-features/</loc>
+    <loc>https://pixxstudios.github.io/posts/2.-es7-features/</loc>
     <lastmod>2019-05-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</loc>
+    <loc>https://pixxstudios.github.io/posts/1.-container-vs-presentational-compoenents/</loc>
     <lastmod>2017-10-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/about/</loc>

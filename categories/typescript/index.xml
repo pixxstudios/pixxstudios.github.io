@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>typescript on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/categories/typescript/</link>
+    <description>Recent content in typescript on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 13 Oct 2021 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/categories/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tuples in Typescript</title>
+      <link>https://pixxstudios.github.io/posts/11.-tuples-typescript/</link>
+      <pubDate>Wed, 13 Oct 2021 00:18:57 +1100</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/11.-tuples-typescript/</guid>
+      <description>Tuples is a type that exists in Typescript which is similar to Array type but has fixed length and defined what kind of element (either same or different types) will be there at a certain position.
+// Array example  const a: number[] = [1,2,3]; // Tuple example  const t: [string, number, boolean] = [&amp;#39;2&amp;#39;, 1, true]; Since Tuples are just arrays, so it will allow to push a new element only of type either string or number as defined in the tupleType below.</description>
+    </item>
+    
+  </channel>
+</rss>

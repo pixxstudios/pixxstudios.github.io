@@ -6,22 +6,23 @@
     <description>Recent content in Posts on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Sep 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Oct 2021 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Go - Arrays and Slices</title>
-      <link>https://pixxstudios.github.io/posts/go-slice-vs-array/</link>
-      <pubDate>Fri, 10 Sep 2021 00:00:00 +0000</pubDate>
+      <title>Tuples in Typescript</title>
+      <link>https://pixxstudios.github.io/posts/11.-tuples-typescript/</link>
+      <pubDate>Wed, 13 Oct 2021 00:18:57 +1100</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/go-slice-vs-array/</guid>
-      <description>Arrays Like any other programming language, arrays in Go are used to group elements of fixed length together. Arrays can only hold elements of same type. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
+      <guid>https://pixxstudios.github.io/posts/11.-tuples-typescript/</guid>
+      <description>Tuples is a type that exists in Typescript which is similar to Array type but has fixed length and defined what kind of element (either same or different types) will be there at a certain position.
+// Array example  const a: number[] = [1,2,3]; // Tuple example  const t: [string, number, boolean] = [&amp;#39;2&amp;#39;, 1, true]; Since Tuples are just arrays, so it will allow to push a new element only of type either string or number as defined in the tupleType below.</description>
     </item>
     
     <item>
       <title>Using pre-commit hook in package.json</title>
-      <link>https://pixxstudios.github.io/posts/use-pre-commit-hook/</link>
+      <link>https://pixxstudios.github.io/posts/7.-use-pre-commit-hook/</link>
       <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/use-pre-commit-hook/</guid>
+      <guid>https://pixxstudios.github.io/posts/7.-use-pre-commit-hook/</guid>
       <description>One of the traits of someone who follows or moving towards a good coding practice environment is making sure that you are not pushing the code which may have linting issues and/or failing unit tests.
 Adding a pre-commit hook forces to check the lint and run unit tests (or any other script) to be sure that everything is good before committing changes.
 npm i --save-dev pre-commit Next step is to update the package.</description>
@@ -29,10 +30,10 @@ npm i --save-dev pre-commit Next step is to update the package.</description>
     
     <item>
       <title>undefined and null in Javascript</title>
-      <link>https://pixxstudios.github.io/posts/undefined-null-javascript/</link>
+      <link>https://pixxstudios.github.io/posts/6.-undefined-null-javascript/</link>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/undefined-null-javascript/</guid>
+      <guid>https://pixxstudios.github.io/posts/6.-undefined-null-javascript/</guid>
       <description>undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
 Even a function in Javascript which does not return anything, will return undefined by default.
 So, to avoid any error we should never assign undefined to a variable manually.
@@ -41,10 +42,10 @@ typeof undefined outputs: undefined  null Unlike undefined, null (another primit
     
     <item>
       <title>Docker - useful commands</title>
-      <link>https://pixxstudios.github.io/posts/docker-commands/</link>
+      <link>https://pixxstudios.github.io/posts/5.-docker-commands/</link>
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/docker-commands/</guid>
+      <guid>https://pixxstudios.github.io/posts/5.-docker-commands/</guid>
       <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
  Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
  Show running containers docker ps docker ps --all This will list all the containers that were ever created on your machine.
@@ -54,10 +55,10 @@ run docker ps &amp;ndash;all to get the list of containers</description>
     
     <item>
       <title>Using useState hook with the previous state</title>
-      <link>https://pixxstudios.github.io/posts/use-state-with-previous-state/</link>
+      <link>https://pixxstudios.github.io/posts/4.-use-state-with-previous-state/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/use-state-with-previous-state/</guid>
+      <guid>https://pixxstudios.github.io/posts/4.-use-state-with-previous-state/</guid>
       <description>Let&amp;rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
 The code look perfectly fine and will work as expected in almost every time.
 BUT the issue with this code is that setCount() doesn&amp;rsquo;t guarantee that the previous count that it&amp;rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
@@ -66,29 +67,29 @@ To make sure that we always use the latest previous state for calculating the ne
     
     <item>
       <title>Browser storage (overview)</title>
-      <link>https://pixxstudios.github.io/posts/browser-storage/</link>
+      <link>https://pixxstudios.github.io/posts/3.-browser-storage/</link>
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/browser-storage/</guid>
+      <guid>https://pixxstudios.github.io/posts/3.-browser-storage/</guid>
       <description> Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  </description>
     </item>
     
     <item>
       <title>ES7 features you should be using</title>
-      <link>https://pixxstudios.github.io/posts/es7-features/</link>
+      <link>https://pixxstudios.github.io/posts/2.-es7-features/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/es7-features/</guid>
+      <guid>https://pixxstudios.github.io/posts/2.-es7-features/</guid>
       <description>Array includes() method The old way to check if some value is present inside an array was to use Array&amp;rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&amp;rsquo;s present in the array.
 Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.</description>
     </item>
     
     <item>
       <title>Container vs Presentational Components in ReactJS</title>
-      <link>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</link>
+      <link>https://pixxstudios.github.io/posts/1.-container-vs-presentational-compoenents/</link>
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/container-vs-presentational-compoenents/</guid>
+      <guid>https://pixxstudios.github.io/posts/1.-container-vs-presentational-compoenents/</guid>
       <description>Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
  It is best suitable for components which only consists of a render method They are also called stateless components since they don&amp;rsquo;t have an internal state and just make use of props to display the data It is not a class which extends React.Component It is just a function which accepts props and returns the rendered component You can define propTypes and defaultProps on the function  let helloComponent = (props) =&amp;gt; { return( {props.</description>
     </item>

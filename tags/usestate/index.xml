@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 02 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/usestate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Using useState hook with the previous state</title>
-      <link>https://pixxstudios.github.io/posts/use-state-with-previous-state/</link>
+      <link>https://pixxstudios.github.io/posts/4.-use-state-with-previous-state/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://pixxstudios.github.io/posts/use-state-with-previous-state/</guid>
+      <guid>https://pixxstudios.github.io/posts/4.-use-state-with-previous-state/</guid>
       <description>Let&amp;rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
 The code look perfectly fine and will work as expected in almost every time.
 BUT the issue with this code is that setCount() doesn&amp;rsquo;t guarantee that the previous count that it&amp;rsquo;s going to use to either increment and decrement to get the next state will be the latest one.

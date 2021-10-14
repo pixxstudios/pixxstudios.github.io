@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>ES7 features you should be using - Gagandeep Singh</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="ES7 features you should be using" />
+<meta property="og:description" content="Array includes() method The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.
+Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pixxstudios.github.io/posts/2.-es7-features/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2019-05-07T00:00:00+00:00" />
+<meta property="article:modified_time" content="2019-05-07T00:00:00+00:00" />
+
+
+		<meta itemprop="name" content="ES7 features you should be using">
+<meta itemprop="description" content="Array includes() method The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.
+Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument."><meta itemprop="datePublished" content="2019-05-07T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-05-07T00:00:00+00:00" />
+<meta itemprop="wordCount" content="67">
+<meta itemprop="keywords" content="" />
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="ES7 features you should be using"/>
+<meta name="twitter:description" content="Array includes() method The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.
+Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Gagandeep Singh" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Gagandeep Singh</div>
+					
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/other-posts/">
+				
+				<span class="menu__text">Other posts</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">ES7 features you should be using</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-05-07T00:00:00Z">2019-05-07</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+		</header>
+		
+<div class="post__toc toc">
+	<div class="toc__title">Page content</div>
+	<div class="toc__menu">
+		<nav id="TableOfContents">
+  <ul>
+    <li><a href="#array-includes-method">Array includes() method</a></li>
+    <li><a href="#exponential-operator">Exponential operator</a></li>
+  </ul>
+</nav>
+	</div>
+</div><div class="content post__content clearfix">
+			<h2 id="array-includes-method">Array includes() method</h2>
+<p><strong>The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.</strong></p>
+<p><img src="/images/3-768x768.jpg" alt="array includes"></p>
+<h2 id="exponential-operator">Exponential operator</h2>
+<p>Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.</p>
+<p><img src="/images/ss.png" alt="exponential operator"></p>
+
+		</div>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/1.-container-vs-presentational-compoenents/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Container vs Presentational Components in ReactJS</p>
+		</a>
+	</div>
+	<div class="pager__item pager__item--next">
+		<a class="pager__link" href="/posts/3.-browser-storage/" rel="next">
+			<span class="pager__subtitle">Next&thinsp;»</span>
+			<p class="pager__title">Browser storage (overview)</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="/about/">About</a> | <a class="footer__link" href="/other-posts/">Other posts</a>
+</div>
+		<div class="footer__copyright">
+			&copy; 2021 Gagandeep Singh.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
