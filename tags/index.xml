@@ -6,22 +6,31 @@
     <description>Recent content in Tags on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 Oct 2021 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 21 Feb 2022 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>typescript</title>
-      <link>https://pixxstudios.github.io/tags/typescript/</link>
-      <pubDate>Wed, 13 Oct 2021 00:18:57 +1100</pubDate>
+      <title>javascript</title>
+      <link>https://pixxstudios.github.io/tags/javascript/</link>
+      <pubDate>Mon, 21 Feb 2022 00:18:57 +1100</pubDate>
       
-      <guid>https://pixxstudios.github.io/tags/typescript/</guid>
+      <guid>https://pixxstudios.github.io/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>javascript</title>
-      <link>https://pixxstudios.github.io/tags/javascript/</link>
-      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      <title>generics</title>
+      <link>https://pixxstudios.github.io/tags/generics/</link>
+      <pubDate>Thu, 14 Oct 2021 00:18:57 +1100</pubDate>
       
-      <guid>https://pixxstudios.github.io/tags/javascript/</guid>
+      <guid>https://pixxstudios.github.io/tags/generics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>typescript</title>
+      <link>https://pixxstudios.github.io/tags/typescript/</link>
+      <pubDate>Thu, 14 Oct 2021 00:18:57 +1100</pubDate>
+      
+      <guid>https://pixxstudios.github.io/tags/typescript/</guid>
       <description></description>
     </item>
     

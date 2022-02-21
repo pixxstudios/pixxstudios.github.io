@@ -3,31 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pixxstudios.github.io/categories/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/13.-create-executable-javascript-file/</loc>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/javascript/</loc>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/javascript/</loc>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/posts/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
+    <lastmod>2022-02-21T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/generics/</loc>
+    <lastmod>2021-10-14T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/12.-generics-typescript/</loc>
+    <lastmod>2021-10-14T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/tags/typescript/</loc>
+    <lastmod>2021-10-14T00:18:57+11:00</lastmod>
+  </url><url>
+    <loc>https://pixxstudios.github.io/categories/typescript/</loc>
+    <lastmod>2021-10-14T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/posts/11.-tuples-typescript/</loc>
     <lastmod>2021-10-13T00:18:57+11:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/tags/typescript/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/categories/typescript/</loc>
-    <lastmod>2021-10-13T00:18:57+11:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/tags/javascript/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/categories/javascript/</loc>
-    <lastmod>2021-09-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/tags/nodejs/</loc>
     <lastmod>2021-09-02T00:00:00+00:00</lastmod>

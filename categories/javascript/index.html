@@ -30,6 +30,17 @@
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-25876138-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
 </head>
 <body class="body">
 	<div class="container container--outer">
@@ -76,6 +87,29 @@
 	<header class="main__header">
 		<h1 class="main__title">javascript</h1>
 	</header><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
+			<a href="/posts/13.-create-executable-javascript-file/" rel="bookmark">
+			Create a globally executable javascript file
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-02-21T00:18:57&#43;11:00">2022-02-21</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Tuples is a type that exists in Typescript which is similar to Array type but has fixed length and defined what kind of element (either same or different types) will be there at a certain position.
+// Array example  const a: number[] = [1,2,3]; // Tuple example  const t: [string, number, boolean] = [&#39;2&#39;, 1, true]; Since Tuples are just arrays, so it will allow to push a new element only of type either string or number as defined in the tupleType below.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/13.-create-executable-javascript-file/">Read more…</a>
+	</div>
+</article><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
@@ -168,29 +202,13 @@ To make sure that we always use the latest previous state for calculating the ne
 	<div class="content list__excerpt post__content clearfix">
 		 Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/2.-es7-features/" rel="bookmark">
-			ES7 features you should be using
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2019-05-07T00:00:00Z">2019-05-07</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Array includes() method The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.
-Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.
-	</div>
 </article>
 </main>
 
+<div class="pagination">
+	<span class="pagination__item pagination__item--current">1/2</span>
+	<a class="pagination__item pagination__item--next btn" href="/categories/javascript/page/2/">»</a>
+</div>
 
 			</div>
 			
@@ -207,11 +225,11 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/13.-create-executable-javascript-file/">Create a globally executable javascript file</a></li>
+			<li class="widget__item"><a class="widget__link" href="/posts/12.-generics-typescript/">Generics in Typescript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/11.-tuples-typescript/">Tuples in Typescript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/7.-use-pre-commit-hook/">Using pre-commit hook in package.json</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/6.-undefined-null-javascript/">undefined and null in Javascript</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/5.-docker-commands/">Docker - useful commands</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/4.-use-state-with-previous-state/">Using useState hook with the previous state</a></li>
 		</ul>
 	</div>
 </div>
@@ -225,7 +243,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/javascript/">javascript</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">5</span>
+				<span class="widget__counter widget__counter--bubble">6</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/reactjs/">reactjs</a>&nbsp;
@@ -233,7 +251,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/typescript/">typescript</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">1</span>
+				<span class="widget__counter widget__counter--bubble">2</span>
 				</li>
 		</ul>
 	</div>
@@ -244,12 +262,13 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 		<a class="widget-taglist__link widget__link btn" href="/tags/browser-storage/" title="browser-storage">browser-storage (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/docker/" title="docker">docker (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/docker-commands/" title="docker commands">docker commands (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (3)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/generics/" title="generics">generics (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (4)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nodejs/" title="nodejs">nodejs (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pre-commit/" title="pre-commit">pre-commit (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/reactjs/" title="reactjs">reactjs (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (2)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/undefined/" title="undefined">undefined (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usestate/" title="usestate">usestate (1)</a>
 	</div>
@@ -294,7 +313,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 	<a class="footer__link" href="/about/">About</a> | <a class="footer__link" href="/other-posts/">Other posts</a>
 </div>
 		<div class="footer__copyright">
-			&copy; 2021 Gagandeep Singh.
+			&copy; 2022 Gagandeep Singh.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
