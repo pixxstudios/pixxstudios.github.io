@@ -13,8 +13,9 @@
       <pubDate>Mon, 21 Feb 2022 00:18:57 +1100</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/13.-create-executable-javascript-file/</guid>
-      <description>Tuples is a type that exists in Typescript which is similar to Array type but has fixed length and defined what kind of element (either same or different types) will be there at a certain position.
-// Array example  const a: number[] = [1,2,3]; // Tuple example  const t: [string, number, boolean] = [&amp;#39;2&amp;#39;, 1, true]; Since Tuples are just arrays, so it will allow to push a new element only of type either string or number as defined in the tupleType below.</description>
+      <description>We will understand and see how to create an executable javascript file using a global command.
+Lets say for example you want to create a clone of &amp;lsquo;ls&amp;rsquo; or &amp;lsquo;cmd&amp;rsquo; command which shows the content of the current folder or from the path provided. To acheive that we need to have a global command.
+To acheive this we need to do couple of things and need to have 2 files (index.</description>
     </item>
     
     <item>
