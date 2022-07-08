@@ -6,7 +6,17 @@
     <description>Recent content on Javascript | React | Go</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 25 Feb 2022 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jun 2022 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Different console methods in Javascript</title>
+      <link>https://pixxstudios.github.io/posts/16.-console-methods/</link>
+      <pubDate>Sun, 26 Jun 2022 00:18:57 +1100</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/16.-console-methods/</guid>
+      <description>There are few console methods available in Javascript, console.log being the most common one. Each of these variations of console methods could and should be used depending on type of data to output.
+ console.log() - As mentioned earlier console.log() is the most common console method and can be used to output any kind of data.  console.log(); const message = &amp;#34;Hello world&amp;#34;; const num1 = 10; const num2 = 20; console.</description>
+    </item>
+    
     <item>
       <title>Structs in Go</title>
       <link>https://pixxstudios.github.io/posts/14.-structs-in-go/</link>

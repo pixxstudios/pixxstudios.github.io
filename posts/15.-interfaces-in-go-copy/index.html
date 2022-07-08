@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Different console methods in Javascript - Javascript | React | Go</title>
+	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
+	<meta name="description" content="">
+		<meta property="og:title" content="Different console methods in Javascript" />
+<meta property="og:description" content="There are few console methods available in Javascript, console.log being the most common one. Each of these variations of console methods could and should be used depending on type of data to output.
+ console.log() - As mentioned earlier console.log() is the most common console method and can be used to output any kind of data.  console.log(); const message = &#34;Hello world&#34;; const num1 = 10; const num2 = 20; console." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://pixxstudios.github.io/posts/15.-interfaces-in-go-copy/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-26T00:18:57+11:00" />
+<meta property="article:modified_time" content="2022-06-26T00:18:57+11:00" />
+
+
+		<meta itemprop="name" content="Different console methods in Javascript">
+<meta itemprop="description" content="There are few console methods available in Javascript, console.log being the most common one. Each of these variations of console methods could and should be used depending on type of data to output.
+ console.log() - As mentioned earlier console.log() is the most common console method and can be used to output any kind of data.  console.log(); const message = &#34;Hello world&#34;; const num1 = 10; const num2 = 20; console."><meta itemprop="datePublished" content="2022-06-26T00:18:57+11:00" />
+<meta itemprop="dateModified" content="2022-06-26T00:18:57+11:00" />
+<meta itemprop="wordCount" content="269">
+<meta itemprop="keywords" content="javascript," />
+		<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Different console methods in Javascript"/>
+<meta name="twitter:description" content="There are few console methods available in Javascript, console.log being the most common one. Each of these variations of console methods could and should be used depending on type of data to output.
+ console.log() - As mentioned earlier console.log() is the most common console method and can be used to output any kind of data.  console.log(); const message = &#34;Hello world&#34;; const num1 = 10; const num2 = 20; console."/>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="dns-prefetch" href="//fonts.googleapis.com">
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
+
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/custom.css">
+
+	<link rel="shortcut icon" href="/favicon.ico">
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-25876138-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body class="body">
+	<div class="container container--outer">
+		<header class="header">
+	<div class="container header__container">
+		
+	<div class="logo">
+		<a class="logo__link" href="/" title="Gagandeep Singh" rel="home">
+			<div class="logo__item logo__text">
+					<div class="logo__title">Gagandeep Singh</div>
+					<div class="logo__tagline">Tech blog</div>
+				</div>
+		</a>
+	</div>
+		
+<nav class="menu">
+	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
+		<span class="menu__btn-title" tabindex="-1">Menu</span>
+	</button>
+	<ul class="menu__list">
+		<li class="menu__item">
+			<a class="menu__link" href="/about/">
+				
+				<span class="menu__text">About</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/other-posts/">
+				
+				<span class="menu__text">Other posts</span>
+				
+			</a>
+		</li>
+		<li class="menu__item">
+			<a class="menu__link" href="/projects/">
+				
+				<span class="menu__text">Projects</span>
+				
+			</a>
+		</li>
+	</ul>
+</nav>
+
+	</div>
+</header>
+		<div class="wrapper flex">
+			<div class="primary">
+			
+<main class="main" role="main">
+	<article class="post">
+		<header class="post__header">
+			<h1 class="post__title">Different console methods in Javascript</h1>
+			<div class="post__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-06-26T00:18:57&#43;11:00">2022-06-26</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+		</header>
+		<div class="content post__content clearfix">
+			<p>There are few console methods available in Javascript, console.log being the most common one. Each of these variations of console methods could and should be used depending on type of data to output.</p>
+<ol>
+<li><code>console.log()</code> - As mentioned earlier console.log() is the most common console method and can be used to output any kind of data.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>();
+
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">message</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello world&#34;</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">num1</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>;
+<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">num2</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
+
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">message</span>); <span style="color:#75715e">//string
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">num1</span>); <span style="color:#75715e">//number
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">num1</span>, <span style="color:#a6e22e">num2</span>, <span style="color:#a6e22e">message</span>); <span style="color:#75715e">//comma separated values
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">num2</span> <span style="color:#f92672">/</span> <span style="color:#a6e22e">num1</span>); <span style="color:#75715e">//expressions
+</span></code></pre></div><ol start="2">
+<li><code>console.clear()</code> - clears out the console</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">clear</span>();
+</code></pre></div><ol start="3">
+<li><code>console.error()</code> - Can be used in case we want to show an error message on the console. It adds a red background to the message so that it is differentiable from other messages whenever some error occurs.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">error</span>(<span style="color:#e6db74">&#34;Oops, that didn&#39;t work&#34;</span>);
+</code></pre></div><ol start="4">
+<li><code>console.table()</code> - It outputs the values in the form of a table. The table() methods expects the input in the form of an array or object.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">arr</span> <span style="color:#f92672">=</span> [<span style="color:#ae81ff">10</span>, <span style="color:#ae81ff">30</span>, <span style="color:#ae81ff">20</span>];
+
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">table</span>(<span style="color:#a6e22e">arr</span>);
+</code></pre></div><p><img src="/images/console_table_array.png" alt="usestate"></p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">student</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">name</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Gagan&#34;</span>,
+  <span style="color:#a6e22e">course</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;MCA&#34;</span>,
+};
+
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">table</span>(<span style="color:#a6e22e">student</span>);
+</code></pre></div><p><img src="/images/console_table_object.png" alt="usestate"></p>
+<ol start="5">
+<li><code>console.count()</code> - Logs the number of time count() method was called. We can call count without or without any parameter. The default label it adds to the count is <code>default:</code></li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>();
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>();
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>();
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>();
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>();
+</code></pre></div><p><img src="/images/console_count_default.png" alt="usestate"></p>
+<p>or optionally we can pass a custom label to the count() method.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>(<span style="color:#e6db74">&#34;Got called times: &#34;</span>);
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>(<span style="color:#e6db74">&#34;Got called times: &#34;</span>);
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>(<span style="color:#e6db74">&#34;Got called times: &#34;</span>);
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>(<span style="color:#e6db74">&#34;Got called times: &#34;</span>);
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">count</span>(<span style="color:#e6db74">&#34;Got called times: &#34;</span>);
+</code></pre></div><p><img src="/images/console_count_parameter.png" alt="usestate"></p>
+<ol start="6">
+<li><code>console.time()</code> - It logs the time between the execution of statements.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">time</span>(<span style="color:#e6db74">&#34;start&#34;</span>);
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
+
+<span style="color:#66d9ef">while</span> (<span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5000</span>) {
+  <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>;
+}
+<span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">timeEnd</span>(<span style="color:#e6db74">&#34;start&#34;</span>);
+
+<span style="color:#a6e22e">output</span><span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">start</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">0.117919921875</span> <span style="color:#a6e22e">ms</span>
+</code></pre></div>
+		</div>
+		<footer class="post__footer">
+			
+<div class="post__tags tags clearfix">
+	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item">
+			<a class="tags__link btn" href="/tags/javascript/" rel="tag">javascript</a>
+		</li>
+	</ul>
+</div>
+		</footer>
+	</article>
+</main>
+
+
+<nav class="pager flex">
+	<div class="pager__item pager__item--prev">
+		<a class="pager__link" href="/posts/14.-structs-in-go/" rel="prev">
+			<span class="pager__subtitle">«&thinsp;Previous</span>
+			<p class="pager__title">Structs in Go</p>
+		</a>
+	</div>
+</nav>
+
+
+			</div>
+			
+		</div>
+		<footer class="footer">
+	<div class="container footer__container flex">
+		
+<div class="footer__links">
+	<a class="footer__link" href="/about/">About</a> | <a class="footer__link" href="/other-posts/">Other posts</a> | <a class="footer__link" href="/projects/">Projects</a>
+</div>
+		<div class="footer__copyright">
+			&copy; 2022 Gagandeep Singh.
+			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
+		</div>
+	</div>
+</footer>
+	</div>
+<script async defer src="/js/menu.js"></script>
+<script src="/js/custom.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
+</body>
+</html>
