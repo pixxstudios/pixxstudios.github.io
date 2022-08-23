@@ -146,6 +146,15 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
     </item>
     
     <item>
+      <title>Mini Projects</title>
+      <link>https://pixxstudios.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/projects/</guid>
+      <description>QR Code Generator</description>
+    </item>
+    
+    <item>
       <title>Other posts</title>
       <link>https://pixxstudios.github.io/other-posts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -156,15 +165,6 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
   Detecting Object properties in Javascript
   ExpressJS - Getting started
   </description>
-    </item>
-    
-    <item>
-      <title>Projects</title>
-      <link>https://pixxstudios.github.io/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pixxstudios.github.io/projects/</guid>
-      <description>QR Code Generator</description>
     </item>
     
   </channel>
