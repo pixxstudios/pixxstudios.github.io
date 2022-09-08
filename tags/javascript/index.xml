@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>javascript on Javascript | React | Go</title>
+    <title>javascript on Gagandeep Singh</title>
     <link>https://pixxstudios.github.io/tags/javascript/</link>
-    <description>Recent content in javascript on Javascript | React | Go</description>
+    <description>Recent content in javascript on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 26 Jun 2022 00:18:57 +1100</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
@@ -48,7 +48,7 @@ npm i --save-dev pre-commit Next step is to update the package.</description>
       <description>undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
 Even a function in Javascript which does not return anything, will return undefined by default.
 So, to avoid any error we should never assign undefined to a variable manually.
-typeof undefined outputs: undefined  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
+typeof undefined; outputs: undefined;  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
     </item>
     
     <item>

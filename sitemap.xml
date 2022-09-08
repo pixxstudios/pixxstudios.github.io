@@ -8,13 +8,13 @@
     <loc>https://pixxstudios.github.io/posts/16.-console-methods/</loc>
     <lastmod>2022-06-26T00:18:57+11:00</lastmod>
   </url><url>
+    <loc>https://pixxstudios.github.io/</loc>
+    <lastmod>2022-06-26T00:18:57+11:00</lastmod>
+  </url><url>
     <loc>https://pixxstudios.github.io/tags/javascript/</loc>
     <lastmod>2022-06-26T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/categories/javascript/</loc>
-    <lastmod>2022-06-26T00:18:57+11:00</lastmod>
-  </url><url>
-    <loc>https://pixxstudios.github.io/</loc>
     <lastmod>2022-06-26T00:18:57+11:00</lastmod>
   </url><url>
     <loc>https://pixxstudios.github.io/posts/</loc>
@@ -109,5 +109,7 @@
     <loc>https://pixxstudios.github.io/projects/</loc>
   </url><url>
     <loc>https://pixxstudios.github.io/other-posts/</loc>
+  </url><url>
+    <loc>https://pixxstudios.github.io/posts/</loc>
   </url>
 </urlset>

@@ -1,73 +1,97 @@
-body {
-	color: #ddd;
-	background-color: #000;
+:root {
+  --dark-primary-color: 34, 39, 46;
+  --dark-secondary-color: #2d333b;
+  --dark-tertiary-color: #646464;
+  --dark-text-color: white;
 }
 
-::-moz-selection {
-    background: #666;
-    text-shadow: none
+html {
+  background-color: rgb(var(--dark-primary-color));
+  color: var(--dark-text-color);
+  fill: var(--dark-text-color);
 }
 
-::selection {
-    background: #666;
-    text-shadow: none
+.header {
+  background-color: rgba(var(--dark-primary-color), 0.95);
 }
 
-hr {
-    border-color: #333;
+.nav-hamburger-list {
+  background: rgba(var(--dark-primary-color), 1);
+}
+
+.nav-links .nav-icons-divider {
+  color: var(--dark-secondary-color);
+}
+
+a:hover .feather-moon {
+  fill: white;
+  color: white;
+}
+
+.social-icons-list .social-icon,
+.social-icons-list .social-icon a:visited  {
+  fill: var(--dark-text-color);
+}
+
+.social-icons-list .social-icon a:hover {
+  fill: var(--accent-color);
+}
+
+.post-tags .post-tag:hover {
+  background-color: var(--dark-text-color);
+  color: rgb(var(--dark-primary-color));
+}
+
+.tags-list .post-tags .post-tag a .tag-posts-count {
+  background-color: var(--dark-secondary-color);
+}
+
+.tags-list .post-tags .post-tag:hover a .tag-posts-count {
+  background-color: var(--dark-text-color);
+  color: rgb(var(--dark-primary-color));
+}
+
+.footer {
+  border-top-color: var(--dark-header-bg-color);
 }
 
 blockquote {
-	border-color: #ddd;
+  color: darkgrey;
+  border-left-color: var(--dark-secondary-color);
 }
 
-h1,h2,h3,h4,h5,h6 {
-	color: #ddd;
+hr {
+  color: var(--dark-secondary-color);
 }
 
-a,a:hover {
-	color: #ff7979;
-	text-decoration: none;
+table thead {
+  background-color: var(--dark-secondary-color);
 }
 
-.site-description a,
-.site-description a:hover {
-	color: #ddd;
-	text-decoration: underline;
-}
-
-a:hover {
-	opacity: 0.8;
-}
-
-.post-tags .tags a {
-    border: 1px solid #ddd;
-	color: #ddd;
-}
-
-.site-title a {
-	color: #ddd;
-	text-decoration: none !important;
-}
-
-.header nav,
-.footer {
-	border-color: #333;
-}
-
-.highlight {
-	background-color: #333;
-}
-
+table td,
 table th {
-	background-color: #333;
+  border-bottom-color: var(--dark-secondary-color);
 }
 
-table th, table td {
-    padding: 10px 20px;
-    border: 1px solid #666;
+code,
+pre {
+  background-color: var(--dark-secondary-color) !important;
 }
 
-pre code {
-  display: inline-block
+:not(pre) > code {
+  background-color: var(--dark-tertiary-color) !important;
+  color: var(--dark-text-color);
 }
+
+.header-shadow {
+  box-shadow: rgb(33, 38, 45) 0px -1px 0px 0px inset;
+}
+
+/* TODO: Check if this is needed or not */
+/* 
+img,
+video {
+  filter: hue-rotate(180deg) contrast(100%) invert(100%);
+  -webkit-filter: hue-rotate(180deg) contrast(100%) invert(100%);
+} 
+*/
