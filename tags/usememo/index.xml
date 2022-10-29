@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>useMemo on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/tags/usememo/</link>
+    <description>Recent content in useMemo on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/usememo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>useCallback vs useMemo</title>
+      <link>https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/</guid>
+      <description>useCallback and useMemo are two of the multiple hooks released with React V16. Hooks are javascript functions which help in isolating some functionality from the functional component (hooks cannot be used inside class based components).
+ useCallback - As per the official documents, useCallback &amp;ldquo;Returns a memoized callback&amp;rdquo;. Here memoized means maintaining or saving a version of the function in the memory for the given array of one or more dependencies.</description>
+    </item>
+    
+  </channel>
+</rss>

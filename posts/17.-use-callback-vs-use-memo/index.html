@@ -17,25 +17,25 @@
     
 
     
-    <title>Tags</title>
+    <title>useCallback vs useMemo</title>
     <meta name="description" content="Javascript | React | Go">
-    <meta name="keywords" content=''>
+    <meta name="keywords" content='reactjs, useCallback, useMemo'>
 
-    <meta property="og:url" content="https://pixxstudios.github.io/tags/">
+    <meta property="og:url" content="https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="useCallback vs useMemo">
     <meta property="og:description" content="Javascript | React | Go">
     <meta property="og:image" content="images/programmer.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tags">
+    <meta name="twitter:title" content="useCallback vs useMemo">
     <meta name="twitter:description" content="Javascript | React | Go">
-    <meta property="twitter:domain" content="https://pixxstudios.github.io/tags/">
-    <meta property="twitter:url" content="https://pixxstudios.github.io/tags/">
+    <meta property="twitter:domain" content="https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/">
+    <meta property="twitter:url" content="https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/">
     <meta name="twitter:image" content="images/programmer.png">
 
     
-    <link rel="canonical" href="https://pixxstudios.github.io/tags/" />
+    <link rel="canonical" href="https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/" />
 
     <link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io//css/main.css">
@@ -148,121 +148,53 @@
     </nav>
 </header>
 <main id="content">
-<div class="container tags-list">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>useCallback vs useMemo</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">
+            October 27, 2022
+        </p>
 
-    <h1 class="list-title">Tags</h1>
-    
-    <ul class="post-tags">
+        <ul class="post-tags">
         
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/javascript/">
-                <div class="tag-name">javascript</div>
-                <div class="tag-posts-count">5</div>
-            </a>
-        </li>
+            <li class="post-tag"><a href="https://pixxstudios.github.io/tags/reactjs">reactjs</a></li>
         
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/reactjs/">
-                <div class="tag-name">reactjs</div>
-                <div class="tag-posts-count">2</div>
-            </a>
-        </li>
+            <li class="post-tag"><a href="https://pixxstudios.github.io/tags/usecallback">useCallback</a></li>
         
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/typescript/">
-                <div class="tag-name">typescript</div>
-                <div class="tag-posts-count">2</div>
-            </a>
-        </li>
+            <li class="post-tag"><a href="https://pixxstudios.github.io/tags/usememo">useMemo</a></li>
         
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/browser-storage/">
-                <div class="tag-name">browser-storage</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/docker/">
-                <div class="tag-name">docker</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/docker-commands/">
-                <div class="tag-name">docker-commands</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/generics/">
-                <div class="tag-name">generics</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/go/">
-                <div class="tag-name">go</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/nodejs/">
-                <div class="tag-name">nodejs</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/null/">
-                <div class="tag-name">null</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/pre-commit/">
-                <div class="tag-name">pre-commit</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/undefined/">
-                <div class="tag-name">undefined</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/usecallback/">
-                <div class="tag-name">usecallback</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/usememo/">
-                <div class="tag-name">usememo</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://pixxstudios.github.io//tags/usestate/">
-                <div class="tag-name">usestate</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-    </ul>
-    
+        </ul>
+    </div>
 
+    <div class="post-content">
+        <p>
+            <p><code>useCallback</code> and <code>useMemo</code> are two of the multiple hooks released with React V16. Hooks are javascript functions which help in isolating some functionality from the functional component (hooks cannot be used inside class based components).</p>
+<ol>
+<li><strong>useCallback</strong> - As per the official documents, useCallback &ldquo;<em>Returns a memoized callback</em>&rdquo;. Here memoized means maintaining or saving a version of the function in the memory for the given array of one or more dependencies.</li>
+</ol>
+<p>In the below example you can see that useCallback takes two arguments, first one is the function to be memoized and second one is the array with dependencies. If the dependencies remain same, useCallback returns the existing function from the memory and in case dependency array changes a new is saved in the memory(memoized) and returned.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">memoziedFunction</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useCallback</span>(() =&gt; {
+  <span style="color:#75715e">// perform some operation with given dependencies
+</span><span style="color:#75715e"></span>}, [<span style="color:#a6e22e">dep1</span>, <span style="color:#a6e22e">dep2</span>]);
+</code></pre></div><ol start="2">
+<li><strong>useMemo</strong> - The syntax of useMemo is similar to <code>useCallback</code> but instead of memoizing the function, useMemo stores the return value of the function for the given dependencies. It is specially useful when some expensive computation needs to be done. So if the dependencies remain same during render, the function will return the saved value instead of executing it again.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">memoziedValue</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">useMemo</span>(() =&gt; {
+  <span style="color:#75715e">// perform some operation with given dependencies
+</span><span style="color:#75715e"></span>  <span style="color:#75715e">// return value
+</span><span style="color:#75715e"></span>}, [<span style="color:#a6e22e">dep1</span>, <span style="color:#a6e22e">dep2</span>]);
+</code></pre></div><p>Notes:</p>
+<p>i) <em>It doesn&rsquo;t make sense to useCallback or useMemo when either of the dependency changes too frequently. For example, using current time, random number, etc.</em></p>
+<p>ii) If the dependency array is empty, the useCallback and useMemo when run on every single render.</p>
+
+        </p>
+    </div>
 </div>
+
+
+
+    
 
         </main><footer class="footer">
   <span>&copy; 2022 </span>
