@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>Various loops available in javascript</title>
+    <meta name="description" content="">
+    <meta name="keywords" content='javascript'>
+
+    <meta property="og:url" content="https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Various loops available in javascript">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="images/programmer.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Various loops available in javascript">
+    <meta name="twitter:description" content="">
+    <meta property="twitter:domain" content="https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/">
+    <meta property="twitter:url" content="https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/">
+    <meta name="twitter:image" content="images/programmer.png">
+
+    
+    <link rel="canonical" href="https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/" />
+
+    <link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://pixxstudios.github.io//css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://pixxstudios.github.io//css/dark.css">
+
+    <script src="https://pixxstudios.github.io//js/svg-injector.min.js"></script>
+    <script src="https://pixxstudios.github.io//js/feather-icons.min.js"></script>
+    <script src="https://pixxstudios.github.io//js/main.js"></script>
+
+    
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://pixxstudios.github.io/">
+                <img src="https://pixxstudios.github.io/images/programmer.png" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://pixxstudios.github.io/">Gagandeep Singh</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/posts/"><span data-feather='book'></span> Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/other-posts/"><span data-feather='book'></span> Other Posts </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/about/"><span data-feather='tag'></span> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://pixxstudios.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/posts/"><span data-feather='book'></span> Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/other-posts/"><span data-feather='book'></span> Other Posts </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/about/"><span data-feather='tag'></span> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://pixxstudios.github.io/tags/"><span data-feather='tag'></span> Tags </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+    <div class="post-header-section">
+        <h1>Various loops available in javascript</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">
+            October 30, 2022
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://pixxstudios.github.io/tags/javascript">javascript</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p>This post will focus on the <em>various loops</em> available in the javascript and when to use them.</p>
+<ol>
+<li><em><strong>for</strong></em> - Probably the most commonly used loop in any programming language. The for loop runs until a specific condition is true. As seen below, it has 3 parts:</li>
+</ol>
+<p>i) initialization (i=0)<br>
+ii) condition (i&lt;5)<br>
+iii) increment/decrement (i++/i--)</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">i</span>);
+}
+</code></pre></div><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">i</span>);
+}
+</code></pre></div><ol start="2">
+<li><em><strong>while</strong></em> - While loop continues to run as long as the condition is true. The syntax is as follows. If there is no change in condition, then the loop will run infinitely.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">while</span> (<span style="color:#a6e22e">condition</span>) {
+  <span style="color:#75715e">// do something
+</span><span style="color:#75715e"></span>}
+</code></pre></div><ol start="3">
+<li><em><strong>for&hellip;in</strong></em> - <em>for&hellip;in</em> loop is useful to iterate over an object. It returns the properties defined in that object.</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">obj</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>,
+  <span style="color:#a6e22e">location</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Melb&#34;</span>,
+  <span style="color:#a6e22e">available</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+};
+
+<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">o</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">obj</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">o</span>);
+}
+
+<span style="color:#75715e">// output
+</span><span style="color:#75715e">// id
+</span><span style="color:#75715e">// location
+</span><span style="color:#75715e">// available
+</span></code></pre></div><p>The values associated with properties can be accessed as follows.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">obj</span> <span style="color:#f92672">=</span> {
+  <span style="color:#a6e22e">id</span><span style="color:#f92672">:</span> <span style="color:#ae81ff">1</span>,
+  <span style="color:#a6e22e">location</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;Melb&#34;</span>,
+  <span style="color:#a6e22e">available</span><span style="color:#f92672">:</span> <span style="color:#66d9ef">true</span>,
+};
+
+<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">o</span> <span style="color:#66d9ef">in</span> <span style="color:#a6e22e">obj</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">o</span>, <span style="color:#a6e22e">obj</span>[<span style="color:#a6e22e">o</span>]);
+}
+
+<span style="color:#75715e">// output
+</span><span style="color:#75715e">// id 1
+</span><span style="color:#75715e">// location Melb
+</span><span style="color:#75715e">// available true
+</span></code></pre></div><ol start="4">
+<li>. <em><strong>for&hellip;of</strong></em> - <em>for&hellip;of</em> loop is useful to iterate over an <em>iterable object</em>. It returns the properties defined in it. Iterable object can be anything that can looped be through, for ex, Array, Map, Set and even String is iterable object</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">const</span> <span style="color:#a6e22e">str</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sample&#34;</span>;
+
+<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">const</span> <span style="color:#a6e22e">s</span> <span style="color:#66d9ef">of</span> <span style="color:#a6e22e">str</span>) {
+  <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#a6e22e">s</span>);
+}
+
+<span style="color:#75715e">/*
+</span><span style="color:#75715e">s
+</span><span style="color:#75715e">a
+</span><span style="color:#75715e">m
+</span><span style="color:#75715e">p
+</span><span style="color:#75715e">l
+</span><span style="color:#75715e">e
+</span><span style="color:#75715e">*/</span>
+</code></pre></div><p>Note: Trying to use <em>for&hellip;of</em> with an object will result in</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#a6e22e">Uncaught</span> <span style="color:#a6e22e">TypeError</span><span style="color:#f92672">:</span> <span style="color:#a6e22e">obj</span> <span style="color:#a6e22e">is</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">iterable</span>
+</code></pre></div>
+        </p>
+    </div>
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+  <span>&copy; 2022 </span>
+  <span>pixxstudios</span>
+</footer>
+</body>
+</html>

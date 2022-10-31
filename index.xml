@@ -6,7 +6,20 @@
     <description>Recent content on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Various loops available in javascript</title>
+      <link>https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/</link>
+      <pubDate>Sun, 30 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/</guid>
+      <description>This post will focus on the various loops available in the javascript and when to use them.
+ for - Probably the most commonly used loop in any programming language. The for loop runs until a specific condition is true. As seen below, it has 3 parts:  i) initialization (i=0)
+ii) condition (i&amp;lt;5)
+iii) increment/decrement (i++/i--)
+for (let i = 0; i &amp;lt; 5; i++) { console.log(i); } for (let i = 5; i &amp;gt;= 0; i--) { console.</description>
+    </item>
+    
     <item>
       <title>useCallback vs useMemo</title>
       <link>https://pixxstudios.github.io/posts/17.-use-callback-vs-use-memo/</link>
