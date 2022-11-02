@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>webpack on Gagandeep Singh</title>
+    <link>https://pixxstudios.github.io/tags/webpack/</link>
+    <description>Recent content in webpack on Gagandeep Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/webpack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Feature flagging in webpack</title>
+      <link>https://pixxstudios.github.io/posts/19.webapck-feature-flagging/</link>
+      <pubDate>Wed, 02 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/19.webapck-feature-flagging/</guid>
+      <description>Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use feature flag is that we don&amp;rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on.</description>
+    </item>
+    
+  </channel>
+</rss>
