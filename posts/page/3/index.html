@@ -104,6 +104,31 @@ if (!doNotTrack) {
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/6.-undefined-null-javascript/" rel="bookmark">
+			undefined and null in Javascript
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-06T00:00:00Z">06-10-2020</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&rsquo;t assign a value to. It&rsquo;s Javascript&rsquo;s way of telling that the value of this variable is not defined.
+Even a function in Javascript which does not return anything, will return undefined by default.
+So, to avoid any error we should never assign undefined to a variable manually.
+typeof undefined; outputs: undefined;  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/6.-undefined-null-javascript/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/5.-docker-commands/" rel="bookmark">
 			Docker - useful commands
 			</a>
@@ -190,35 +215,13 @@ To make sure that we always use the latest previous state for calculating the ne
 		Array includes() method The old way to check if some value is present inside an array was to use Array&rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&rsquo;s present in the array.
 Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/1.-container-vs-presentational-compoenents/" rel="bookmark">
-			Container vs Presentational Components in ReactJS
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2017-10-23T00:00:00Z">23-10-2017</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/reactjs/" rel="category">reactjs</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
- It is best suitable for components which only consists of a render method They are also called stateless components since they don&rsquo;t have an internal state and just make use of props to display the data It is not a class which extends React.Component It is just a function which accepts props and returns the rendered component You can define propTypes and defaultProps on the function  let helloComponent = (props) =&gt; { return( {props.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/posts/1.-container-vs-presentational-compoenents/">Read more…</a>
-	</div>
 </article>
 </main>
 
 <div class="pagination">
 	<a class="pagination__item pagination__item--prev btn" href="/posts/page/2/">«</a>
-	<span class="pagination__item pagination__item--current">3/3</span>
+	<span class="pagination__item pagination__item--current">3/4</span>
+	<a class="pagination__item pagination__item--next btn" href="/posts/page/4/">»</a>
 </div>
 
 			</div>
@@ -236,11 +239,11 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/20.union-vs-intersection-types/">Typescript - Union vs Intersection types</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/19.webapck-feature-flagging/">Feature flagging in webpack</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/18.-various-loops-in-javascript/">Various loops available in javascript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/17.-use-callback-vs-use-memo/">useCallback vs useMemo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/16.-console-methods/">Different console methods in Javascript</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/14.-structs-in-go/">Structs in Go</a></li>
 		</ul>
 	</div>
 </div>
@@ -266,7 +269,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/typescript/">typescript</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">2</span>
+				<span class="widget__counter widget__counter--bubble">3</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/webpack/">webpack</a>&nbsp;
@@ -289,8 +292,9 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pre-commit/" title="pre-commit">pre-commit (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/reactjs/" title="reactjs">reactjs (2)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/undefined/" title="undefined">undefined (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/union-vs-intersection-types/" title="union vs intersection types">union vs intersection types (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usecallback/" title="useCallback">useCallback (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usememo/" title="useMemo">useMemo (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usestate/" title="usestate">usestate (1)</a>

@@ -104,6 +104,31 @@ if (!doNotTrack) {
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/20.union-vs-intersection-types/" rel="bookmark">
+			Typescript - Union vs Intersection types
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-13T00:00:00Z">13-11-2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/typescript/" rel="category">typescript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Union Types Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
+type value = number | boolean; Here value can be either number or boolean.
+We can also combine custom type using the union operator.
+interface house { hasDoor: boolean; address: string; } interface building { hasLift: boolean; address: string; } type houseOrBuilding = house | building const hb: houseOrBuilding In above case hb can only access members that are common to all types in the union.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/20.union-vs-intersection-types/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/12.-generics-typescript/" rel="bookmark">
 			Generics in Typescript
 			</a>
@@ -165,11 +190,11 @@ if (!doNotTrack) {
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/20.union-vs-intersection-types/">Typescript - Union vs Intersection types</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/19.webapck-feature-flagging/">Feature flagging in webpack</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/18.-various-loops-in-javascript/">Various loops available in javascript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/17.-use-callback-vs-use-memo/">useCallback vs useMemo</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/16.-console-methods/">Different console methods in Javascript</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/14.-structs-in-go/">Structs in Go</a></li>
 		</ul>
 	</div>
 </div>
@@ -195,7 +220,7 @@ if (!doNotTrack) {
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/typescript/">typescript</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">2</span>
+				<span class="widget__counter widget__counter--bubble">3</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/webpack/">webpack</a>&nbsp;
@@ -218,8 +243,9 @@ if (!doNotTrack) {
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pre-commit/" title="pre-commit">pre-commit (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/reactjs/" title="reactjs">reactjs (2)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/typescript/" title="typescript">typescript (3)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/undefined/" title="undefined">undefined (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/union-vs-intersection-types/" title="union vs intersection types">union vs intersection types (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usecallback/" title="useCallback">useCallback (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usememo/" title="useMemo">useMemo (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/usestate/" title="usestate">usestate (1)</a>

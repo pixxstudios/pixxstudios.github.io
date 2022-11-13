@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>typescript</title>
+      <link>https://pixxstudios.github.io/tags/typescript/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>union vs intersection types</title>
+      <link>https://pixxstudios.github.io/tags/union-vs-intersection-types/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/tags/union-vs-intersection-types/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>feature flag</title>
       <link>https://pixxstudios.github.io/tags/feature-flag/</link>
@@ -76,15 +94,6 @@
       <pubDate>Thu, 14 Oct 2021 00:18:57 +1100</pubDate>
       
       <guid>https://pixxstudios.github.io/tags/generics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>typescript</title>
-      <link>https://pixxstudios.github.io/tags/typescript/</link>
-      <pubDate>Thu, 14 Oct 2021 00:18:57 +1100</pubDate>
-      
-      <guid>https://pixxstudios.github.io/tags/typescript/</guid>
       <description></description>
     </item>
     

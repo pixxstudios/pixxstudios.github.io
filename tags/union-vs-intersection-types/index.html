@@ -4,19 +4,19 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>javascript - Gagandeep Singh</title>
+	<title>union vs intersection types - Gagandeep Singh</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
-		<meta property="og:title" content="javascript" />
+		<meta property="og:title" content="union vs intersection types" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://pixxstudios.github.io/tags/javascript/" />
+<meta property="og:url" content="https://pixxstudios.github.io/tags/union-vs-intersection-types/" />
 
 
-		<meta itemprop="name" content="javascript">
+		<meta itemprop="name" content="union vs intersection types">
 <meta itemprop="description" content="">
 		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="javascript"/>
+<meta name="twitter:title" content="union vs intersection types"/>
 <meta name="twitter:description" content=""/>
 
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,7 +26,7 @@
 
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/custom.css">
-	<link rel="alternate" type="application/rss+xml" href="/tags/javascript/index.xml" title="Gagandeep Singh">
+	<link rel="alternate" type="application/rss+xml" href="/tags/union-vs-intersection-types/index.xml" title="Gagandeep Singh">
 
 	<link rel="shortcut icon" href="/favicon.ico">
 		
@@ -99,33 +99,35 @@ if (!doNotTrack) {
 			
 <main class="main list" role="main">
 	<header class="main__header">
-		<h1 class="main__title">javascript</h1>
+		<h1 class="main__title">union vs intersection types</h1>
 	</header><article class="list__item post">
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
-			<a href="/posts/3.-browser-storage/" rel="bookmark">
-			Browser storage (overview)
+			<a href="/posts/20.union-vs-intersection-types/" rel="bookmark">
+			Typescript - Union vs Intersection types
 			</a>
 		</h2>
 		<div class="list__meta meta"><div class="meta__item-author meta__item">
 	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
 </div>
 <div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-06-24T00:00:00Z">24-06-2020</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-13T00:00:00Z">13-11-2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/typescript/" rel="category">typescript</a>
 	</span>
 </div></div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		 Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  
+		Union Types Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
+type value = number | boolean; Here value can be either number or boolean.
+We can also combine custom type using the union operator.
+interface house { hasDoor: boolean; address: string; } interface building { hasLift: boolean; address: string; } type houseOrBuilding = house | building const hb: houseOrBuilding In above case hb can only access members that are common to all types in the union.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/20.union-vs-intersection-types/">Read more…</a>
 	</div>
 </article>
 </main>
 
-<div class="pagination">
-	<a class="pagination__item pagination__item--prev btn" href="/tags/javascript/">«</a>
-	<span class="pagination__item pagination__item--current">2/2</span>
-</div>
 
 			</div>
 			

@@ -6,7 +6,19 @@
     <description>Recent content in Posts on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Typescript - Union vs Intersection types</title>
+      <link>https://pixxstudios.github.io/posts/20.union-vs-intersection-types/</link>
+      <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/20.union-vs-intersection-types/</guid>
+      <description>Union Types Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
+type value = number | boolean; Here value can be either number or boolean.
+We can also combine custom type using the union operator.
+interface house { hasDoor: boolean; address: string; } interface building { hasLift: boolean; address: string; } type houseOrBuilding = house | building const hb: houseOrBuilding In above case hb can only access members that are common to all types in the union.</description>
+    </item>
+    
     <item>
       <title>Feature flagging in webpack</title>
       <link>https://pixxstudios.github.io/posts/19.webapck-feature-flagging/</link>
