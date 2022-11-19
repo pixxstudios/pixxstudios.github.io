@@ -6,11 +6,11 @@
     <description>Recent content in typescript on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Typescript - Types vs Interface</title>
       <link>https://pixxstudios.github.io/posts/21.types-vs-interface/</link>
-      <pubDate>Tue, 15 Nov 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/21.types-vs-interface/</guid>
       <description>Types A type helps in defining the shape or structure of the javascript value. A type can consist of a single property or method or can have combination of multiple properties and methods.
