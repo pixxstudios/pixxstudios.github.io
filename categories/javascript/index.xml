@@ -6,7 +6,18 @@
     <description>Recent content in javascript on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 30 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/categories/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>script type=&#34;module&#34; in javascript</title>
+      <link>https://pixxstudios.github.io/posts/23.-script-typemodule-in-javascript/</link>
+      <pubDate>Fri, 20 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/23.-script-typemodule-in-javascript/</guid>
+      <description>#Why type=&amp;ldquo;module&amp;rdquo; is used in the &amp;lt;script&amp;gt; element?
+Rather than writing out whole Javascript application in one big file, it can be broken down into multiple files called modules. Modules are just .js files which can be imported into other files and has some exported code (functions or variables).
+export const USER_ACCESS_TYPES = { admin: &amp;#34;full access&amp;#34;, contributor: &amp;#34;read, write access&amp;#34;, user: &amp;#34;read access&amp;#34;, }; export const getUserAccessType = (userType) =&amp;gt; { return USER_ACCESS_TYPES[userType]; }; These values can be imported in other script files and used.</description>
+    </item>
+    
     <item>
       <title>Various loops available in javascript</title>
       <link>https://pixxstudios.github.io/posts/18.-various-loops-in-javascript/</link>

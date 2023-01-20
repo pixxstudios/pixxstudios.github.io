@@ -104,6 +104,30 @@ if (!doNotTrack) {
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/23.-script-typemodule-in-javascript/" rel="bookmark">
+			script type=&#34;module&#34; in javascript
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2023-01-20T00:00:00Z">20-01-2023</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		#Why type=&ldquo;module&rdquo; is used in the &lt;script&gt; element?
+Rather than writing out whole Javascript application in one big file, it can be broken down into multiple files called modules. Modules are just .js files which can be imported into other files and has some exported code (functions or variables).
+export const USER_ACCESS_TYPES = { admin: &#34;full access&#34;, contributor: &#34;read, write access&#34;, user: &#34;read access&#34;, }; export const getUserAccessType = (userType) =&gt; { return USER_ACCESS_TYPES[userType]; }; These values can be imported in other script files and used.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/23.-script-typemodule-in-javascript/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/21.types-vs-interface/" rel="bookmark">
 			Typescript - Types vs Interface
 			</a>
@@ -197,29 +221,6 @@ for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i-
 	<div class="list__footer clearfix">
 		<a class="list__footer-readmore btn" href="/posts/18.-various-loops-in-javascript/">Read more…</a>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/17.-use-callback-vs-use-memo/" rel="bookmark">
-			useCallback vs useMemo
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-10-27T00:00:00Z">27-10-2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>, <a class="meta__link" href="/categories/reactjs/" rel="category">reactjs</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		useCallback and useMemo are two of the multiple hooks released with React V16. Hooks are javascript functions which help in isolating some functionality from the functional component (hooks cannot be used inside class based components).
- useCallback - As per the official documents, useCallback &ldquo;Returns a memoized callback&rdquo;. Here memoized means maintaining or saving a version of the function in the memory for the given array of one or more dependencies.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/posts/17.-use-callback-vs-use-memo/">Read more…</a>
-	</div>
 </article>
 </main>
 
@@ -230,24 +231,16 @@ for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i-
 
 			</div>
 			
-<aside class="sidebar"><div class="widget-search widget">
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="SEARCH…" value="" name="q" aria-label="SEARCH…">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="https://pixxstudios.github.io/" />
-	</form>
-</div>
+<aside class="sidebar">
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/23.-script-typemodule-in-javascript/">script type=&#34;module&#34; in javascript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/21.types-vs-interface/">Typescript - Types vs Interface</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/20.union-vs-intersection-types/">Typescript - Union vs Intersection types</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/19.webapck-feature-flagging/">Feature flagging in webpack</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/18.-various-loops-in-javascript/">Various loops available in javascript</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/17.-use-callback-vs-use-memo/">useCallback vs useMemo</a></li>
 		</ul>
 	</div>
 </div>
@@ -265,7 +258,7 @@ for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i-
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/javascript/">javascript</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">9</span>
+				<span class="widget__counter widget__counter--bubble">10</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/reactjs/">reactjs</a>&nbsp;
@@ -291,7 +284,7 @@ for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i-
 		<a class="widget-taglist__link widget__link btn" href="/tags/feature-flag/" title="feature flag">feature flag (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/generics/" title="generics">generics (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (6)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (7)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nodejs/" title="nodejs">nodejs (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/pre-commit/" title="pre-commit">pre-commit (1)</a>
@@ -341,7 +334,7 @@ for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i-
 	<div class="container footer__container flex">
 		
 		<div class="footer__copyright">
-			&copy; 2022 Gagandeep Singh.
+			&copy; 2023 Gagandeep Singh.
 			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
 		</div>
 	</div>
