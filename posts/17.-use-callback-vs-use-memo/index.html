@@ -134,7 +134,7 @@ if (!doNotTrack) {
 </span><span style="color:#75715e"></span>}, [<span style="color:#a6e22e">dep1</span>, <span style="color:#a6e22e">dep2</span>]);
 </code></pre></div><p>Notes:</p>
 <p>i) <em>It doesn&rsquo;t make sense to useCallback or useMemo when either of the dependency changes too frequently. For example, using current time, random number, etc.</em></p>
-<p>ii) If the dependency array is empty, the useCallback and useMemo when run on every single render.</p>
+<p>ii) <em>If the dependency array is empty, the useCallback and useMemo will run on every single render.</em></p>
 
 		</div>
 		<footer class="post__footer">
