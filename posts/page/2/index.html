@@ -104,6 +104,32 @@ if (!doNotTrack) {
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/18.-various-loops-in-javascript/" rel="bookmark">
+			Various loops available in javascript
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-10-30T00:00:00Z">30-10-2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		This post will focus on the various loops available in the javascript and when to use them.
+ for - Probably the most commonly used loop in any programming language. The for loop runs until a specific condition is true. As seen below, it has 3 parts:  i) initialization (i=0)
+ii) condition (i&lt;5)
+iii) increment/decrement (i++/i--)
+for (let i = 0; i &lt; 5; i++) { console.log(i); } for (let i = 5; i &gt;= 0; i--) { console.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/18.-various-loops-in-javascript/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/17.-use-callback-vs-use-memo/" rel="bookmark">
 			useCallback vs useMemo
 			</a>
@@ -194,29 +220,6 @@ To acheive this we need to do couple of things and need to have 2 files (index.
 	<div class="list__footer clearfix">
 		<a class="list__footer-readmore btn" href="/posts/13.-create-executable-javascript-file/">Read more…</a>
 	</div>
-</article><article class="list__item post">
-	
-	<header class="list__header">
-		<h2 class="list__title post__title">
-			<a href="/posts/12.-generics-typescript/" rel="bookmark">
-			Generics in Typescript
-			</a>
-		</h2>
-		<div class="list__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2021-10-14T00:18:57&#43;11:00">14-10-2021</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/typescript/" rel="category">typescript</a>
-	</span>
-</div></div>
-	</header>
-	<div class="content list__excerpt post__content clearfix">
-		Tuples is a type that exists in Typescript which is similar to Array type but has fixed length and defined what kind of element (either same or different types) will be there at a certain position.
-// Array example const a: number[] = [1, 2, 3]; // Tuple example const t: [string, number, boolean] = [&#34;2&#34;, 1, true]; Since Tuples are just arrays, so it will allow to push a new element only of type either string or number as defined in the tupleType below.
-	</div>
-	<div class="list__footer clearfix">
-		<a class="list__footer-readmore btn" href="/posts/12.-generics-typescript/">Read more…</a>
-	</div>
 </article>
 </main>
 
@@ -233,11 +236,11 @@ To acheive this we need to do couple of things and need to have 2 files (index.
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/8.-go-slice-vs-array/">Go - Arrays and Slices</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/23.-script-typemodule-in-javascript/">script type=&#34;module&#34; in javascript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/21.types-vs-interface/">Typescript - Types vs Interface</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/20.union-vs-intersection-types/">Typescript - Union vs Intersection types</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/19.webapck-feature-flagging/">Feature flagging in webpack</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/18.-various-loops-in-javascript/">Various loops available in javascript</a></li>
 		</ul>
 	</div>
 </div>
@@ -251,7 +254,7 @@ To acheive this we need to do couple of things and need to have 2 files (index.
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/go/">Go</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">1</span>
+				<span class="widget__counter widget__counter--bubble">2</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/javascript/">javascript</a>&nbsp;
@@ -280,7 +283,8 @@ To acheive this we need to do couple of things and need to have 2 files (index.
 		<a class="widget-taglist__link widget__link btn" href="/tags/docker-commands/" title="docker commands">docker commands (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/feature-flag/" title="feature flag">feature flag (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/generics/" title="generics">generics (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/golang/" title="golang">golang (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (7)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nodejs/" title="nodejs">nodejs (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>

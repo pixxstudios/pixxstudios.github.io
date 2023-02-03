@@ -103,6 +103,31 @@ if (!doNotTrack) {
 	
 	<header class="list__header">
 		<h2 class="list__title post__title">
+			<a href="/posts/4.-use-state-with-previous-state/" rel="bookmark">
+			Using useState hook with the previous state
+			</a>
+		</h2>
+		<div class="list__meta meta"><div class="meta__item-author meta__item">
+	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
+</div>
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2020-10-02T00:00:00Z">02-10-2020</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/javascript/" rel="category">javascript</a>, <a class="meta__link" href="/categories/reactjs/" rel="category">reactjs</a>
+	</span>
+</div></div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Let&rsquo;s take a very basic use case of the useState() hook; updating the count variable on each click.
+The code look perfectly fine and will work as expected in almost every time.
+BUT the issue with this code is that setCount() doesn&rsquo;t guarantee that the previous count that it&rsquo;s going to use to either increment and decrement to get the next state will be the latest one.
+To make sure that we always use the latest previous state for calculating the new state, we need to pass a callback function in the setCount rather than directly doing computation inside it.
+	</div>
+	<div class="list__footer clearfix">
+		<a class="list__footer-readmore btn" href="/posts/4.-use-state-with-previous-state/">Read more…</a>
+	</div>
+</article><article class="list__item post">
+	
+	<header class="list__header">
+		<h2 class="list__title post__title">
 			<a href="/posts/3.-browser-storage/" rel="bookmark">
 			Browser storage (overview)
 			</a>
@@ -175,11 +200,11 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/posts/8.-go-slice-vs-array/">Go - Arrays and Slices</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/23.-script-typemodule-in-javascript/">script type=&#34;module&#34; in javascript</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/21.types-vs-interface/">Typescript - Types vs Interface</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/20.union-vs-intersection-types/">Typescript - Union vs Intersection types</a></li>
 			<li class="widget__item"><a class="widget__link" href="/posts/19.webapck-feature-flagging/">Feature flagging in webpack</a></li>
-			<li class="widget__item"><a class="widget__link" href="/posts/18.-various-loops-in-javascript/">Various loops available in javascript</a></li>
 		</ul>
 	</div>
 </div>
@@ -193,7 +218,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/go/">Go</a>&nbsp;
-				<span class="widget__counter widget__counter--bubble">1</span>
+				<span class="widget__counter widget__counter--bubble">2</span>
 				</li>
 			<li class="widget__item">
 				<a class="widget__link" href="/categories/javascript/">javascript</a>&nbsp;
@@ -222,7 +247,8 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
 		<a class="widget-taglist__link widget__link btn" href="/tags/docker-commands/" title="docker commands">docker commands (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/feature-flag/" title="feature flag">feature flag (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/generics/" title="generics">generics (1)</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go (1)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/go/" title="Go">Go (2)</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/golang/" title="golang">golang (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/javascript/" title="javascript">javascript (7)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/nodejs/" title="nodejs">nodejs (1)</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/null/" title="null">null (1)</a>

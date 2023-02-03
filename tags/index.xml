@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Go</title>
+      <link>https://pixxstudios.github.io/tags/go/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://pixxstudios.github.io/tags/golang/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>javascript</title>
       <link>https://pixxstudios.github.io/tags/javascript/</link>
@@ -67,15 +85,6 @@
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/tags/usememo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Go</title>
-      <link>https://pixxstudios.github.io/tags/go/</link>
-      <pubDate>Fri, 25 Feb 2022 00:18:57 +1100</pubDate>
-      
-      <guid>https://pixxstudios.github.io/tags/go/</guid>
       <description></description>
     </item>
     
