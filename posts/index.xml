@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Gagandeep Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://pixxstudios.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>== vs === in Javascript</title>
+      <link>https://pixxstudios.github.io/posts/25.-vs-in-javascript/</link>
+      <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://pixxstudios.github.io/posts/25.-vs-in-javascript/</guid>
+      <description>== vs === When working with JavaScript, you may come across the operators == and ===. These operators are used for comparing values in JavaScript, but they work in slightly different ways. In this blog post, we&amp;rsquo;ll explore the differences between == and === in JavaScript and when you should use each one.
+The == operator is known as the equality operator. It is used to compare the values of two operands, and if they are equal, it returns true.</description>
+    </item>
+    
     <item>
       <title>Go - Arrays and Slices</title>
       <link>https://pixxstudios.github.io/posts/8.-go-slice-vs-array/</link>
