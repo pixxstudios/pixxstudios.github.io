@@ -13,7 +13,7 @@
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/21.types-vs-interface/</guid>
-      <description>Types A type helps in defining the shape or structure of the javascript value. A type can consist of a single property or method or can have combination of multiple properties and methods.
+      <description>Types 🔗A type helps in defining the shape or structure of the javascript value. A type can consist of a single property or method or can have combination of multiple properties and methods.
 For example, the type of variables below can be inferred by typescript by checking the values assigned to them.
 let id = 123; //number let name = &amp;#34;Gagandeep Singh&amp;#34;; //string let skills = [&amp;#34;typescript&amp;#34;, &amp;#34;react&amp;#34;]; // string[] But in case of an object or complex data structure it&amp;rsquo;s good to define a type beforehand.</description>
     </item>
@@ -24,7 +24,7 @@ let id = 123; //number let name = &amp;#34;Gagandeep Singh&amp;#34;; //string le
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/20.union-vs-intersection-types/</guid>
-      <description>Union Types Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
+      <description>Union Types 🔗Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
 type value = number | boolean; Here value can be either number or boolean.
 We can also combine custom type using the union operator.
 interface house { hasDoor: boolean; address: string; } interface building { hasLift: boolean; address: string; } type houseOrBuilding = house | building const hb: houseOrBuilding In above case hb can only access members that are common to all types in the union.</description>

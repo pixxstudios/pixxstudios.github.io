@@ -13,7 +13,7 @@
       <pubDate>Tue, 04 Apr 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/25.-vs-in-javascript/</guid>
-      <description>== vs === When working with JavaScript, you may come across the operators == and ===. These operators are used for comparing values in JavaScript, but they work in slightly different ways. In this blog post, we&amp;rsquo;ll explore the differences between == and === in JavaScript and when you should use each one.
+      <description>== vs === 🔗When working with JavaScript, you may come across the operators == and ===. These operators are used for comparing values in JavaScript, but they work in slightly different ways. In this blog post, we&amp;rsquo;ll explore the differences between == and === in JavaScript and when you should use each one.
 The == operator is known as the equality operator. It is used to compare the values of two operands, and if they are equal, it returns true.</description>
     </item>
     
@@ -23,7 +23,7 @@ The == operator is known as the equality operator. It is used to compare the val
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/8.-go-slice-vs-array/</guid>
-      <description>Arrays Like any other programming language, arrays in Go are used to group elements of same type and has a fixed length together. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
+      <description>Arrays 🔗Like any other programming language, arrays in Go are used to group elements of same type and has a fixed length together. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@ export const USER_ACCESS_TYPES = { admin: &amp;#34;full access&amp;#34;, contrib
       <pubDate>Sat, 19 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/21.types-vs-interface/</guid>
-      <description>Types A type helps in defining the shape or structure of the javascript value. A type can consist of a single property or method or can have combination of multiple properties and methods.
+      <description>Types 🔗A type helps in defining the shape or structure of the javascript value. A type can consist of a single property or method or can have combination of multiple properties and methods.
 For example, the type of variables below can be inferred by typescript by checking the values assigned to them.
 let id = 123; //number let name = &amp;#34;Gagandeep Singh&amp;#34;; //string let skills = [&amp;#34;typescript&amp;#34;, &amp;#34;react&amp;#34;]; // string[] But in case of an object or complex data structure it&amp;rsquo;s good to define a type beforehand.</description>
     </item>
@@ -54,7 +54,7 @@ let id = 123; //number let name = &amp;#34;Gagandeep Singh&amp;#34;; //string le
       <pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/20.union-vs-intersection-types/</guid>
-      <description>Union Types Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
+      <description>Union Types 🔗Multiple types can be defined on a value by using the | symbol. When a value is expected to have one of many known types, then using union type is the most suitable option (rather than any or unknown).
 type value = number | boolean; Here value can be either number or boolean.
 We can also combine custom type using the union operator.
 interface house { hasDoor: boolean; address: string; } interface building { hasLift: boolean; address: string; } type houseOrBuilding = house | building const hb: houseOrBuilding In above case hb can only access members that are common to all types in the union.</description>
@@ -161,10 +161,10 @@ npm i --save-dev pre-commit Next step is to update the package.</description>
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/6.-undefined-null-javascript/</guid>
-      <description>undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
+      <description>undefined 🔗In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
 Even a function in Javascript which does not return anything, will return undefined by default.
 So, to avoid any error we should never assign undefined to a variable manually.
-typeof undefined; outputs: undefined;  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
+typeof undefined; outputs: undefined;  null 🔗Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
     </item>
     
     <item>
@@ -173,10 +173,10 @@ typeof undefined; outputs: undefined;  null Unlike undefined, null (another prim
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/5.-docker-commands/</guid>
-      <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
- Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
- Show running containers docker ps docker ps --all This will list all the containers that were ever created on your machine.
- Restart stopped containers docker start &amp;lt;container id&amp;gt; example:
+      <description>To run a container using an image 🔗docker run &amp;lt;image name&amp;gt; example: docker run hello-world
+ Override the default command for a container 🔗docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
+ Show running containers 🔗docker ps docker ps --all This will list all the containers that were ever created on your machine.
+ Restart stopped containers 🔗docker start &amp;lt;container id&amp;gt; example:
 run docker ps &amp;ndash;all to get the list of containers</description>
     </item>
     
@@ -198,7 +198,7 @@ To make sure that we always use the latest previous state for calculating the ne
       <pubDate>Wed, 24 Jun 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/3.-browser-storage/</guid>
-      <description> Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage  key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies  simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB  client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  </description>
+      <description> Storing data on the machine of the user Data is available to the user on that particular machine and hence cannot be shared with anyone else Example: Storing data such as items in my shopping cart or recently viewed products Different types of browser storage options available are:  Local storage / Session storage Cookies IndexedDB     Local Storage /Session Storage 🔗 key-value pairs to store data data can read/write from/to local or session storage only via javascript or user better for storing simple values and not for storing complex values   Cookies 🔗 simple key-value pairs with some configuration options can be cleared by using javascript or by the user data in the cookies is send to the server (they are attached to the headers of the http request) not good for complex data   IndexedDB 🔗 client side database can be used with a query language good for storing complex data on client side can be cleared by user or javascript  </description>
     </item>
     
     <item>
@@ -207,8 +207,8 @@ To make sure that we always use the latest previous state for calculating the ne
       <pubDate>Tue, 07 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/2.-es7-features/</guid>
-      <description>Array includes() method The old way to check if some value is present inside an array was to use Array&amp;rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&amp;rsquo;s present in the array.
-Exponential operator Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.</description>
+      <description>Array includes() method 🔗The old way to check if some value is present inside an array was to use Array&amp;rsquo;s indexOf() method. IndexOf() returned -1 if element is not found or else the position of element if it&amp;rsquo;s present in the array.
+Exponential operator 🔗Similar to Math.pow(), the exponential operator ** was introduced in ES2016. It returns the first argument raised to the power of second argument.</description>
     </item>
     
     <item>
@@ -217,7 +217,7 @@ Exponential operator Similar to Math.pow(), the exponential operator ** was intr
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/1.-container-vs-presentational-compoenents/</guid>
-      <description>Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
+      <description>Presentational/Functional/Stateless Components 🔗Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
  It is best suitable for components which only consists of a render method They are also called stateless components since they don&amp;rsquo;t have an internal state and just make use of props to display the data It is not a class which extends React.Component It is just a function which accepts props and returns the rendered component You can define propTypes and defaultProps on the function  let helloComponent = (props) =&amp;gt; { return( {props.</description>
     </item>
     

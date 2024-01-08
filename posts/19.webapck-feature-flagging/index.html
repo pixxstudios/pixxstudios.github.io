@@ -1,121 +1,82 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Feature flagging in webpack - Gagandeep Singh</title>
-	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="">
-		<meta property="og:title" content="Feature flagging in webpack" />
-<meta property="og:description" content="Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use feature flag is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://pixxstudios.github.io/posts/19.webapck-feature-flagging/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-11-02T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-11-02T00:00:00+00:00" />
+<html lang="en-us">
+  <head>
+    <title>Feature flagging in webpack | Gagandeep Singh</title>
+
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    
+<meta name="viewport" content="width=device-width,minimum-scale=1">
+<meta name="description" content="Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use feature flag is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on.">
+<meta name="generator" content="Hugo 0.88.1" />
 
 
-		<meta itemprop="name" content="Feature flagging in webpack">
-<meta itemprop="description" content="Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use feature flag is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on."><meta itemprop="datePublished" content="2022-11-02T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-11-02T00:00:00+00:00" />
-<meta itemprop="wordCount" content="165">
-<meta itemprop="keywords" content="webpack,feature flag," />
-		<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Feature flagging in webpack"/>
-<meta name="twitter:description" content="Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use feature flag is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on."/>
+  <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
 
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700">
 
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="/css/style.css">
 
-	<link rel="shortcut icon" href="/favicon.ico">
-		
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-25876138-1', 'auto');
+
+  
+    
+    <link rel="stylesheet" href="https://pixxstudios.github.io/css/custom.css">
+  
+
+
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+
+
+
+
+
+
+  </head>
+
+  <body>
+    <nav class="navigation">
 	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
+		<a href="/"> <span class="arrow">←</span>Home</a>
+	
+	<a href="/posts">Archive</a>
+	<a href="/tags">Tags</a>
+	<a href="/about">About</a>
 
-</head>
-<body class="body">
-	<div class="container container--outer">
-		<header class="header">
-	<div class="container header__container">
-		
-	<div class="logo">
-		<a class="logo__link" href="/" title="pixxstudios" rel="home">
-			<div class="logo__item logo__text">
-					<div class="logo__title">pixxstudios</div>
-					<div class="logo__tagline">Gagandeep Singh</div>
-				</div>
-		</a>
-	</div>
-		
-<nav class="menu">
-	<button class="menu__btn" aria-haspopup="true" aria-expanded="false" tabindex="0">
-		<span class="menu__btn-title" tabindex="-1">Menu</span>
-	</button>
-	<ul class="menu__list">
-		<li class="menu__item">
-			<a class="menu__link" href="/">
-				<span data-feather='home'></span>
-				<span class="menu__text">Posts</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/other-posts/">
-				<span data-feather='book'></span>
-				<span class="menu__text">Other Posts</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/about/">
-				<span data-feather='tag'></span>
-				<span class="menu__text">About</span>
-				
-			</a>
-		</li>
-		<li class="menu__item">
-			<a class="menu__link" href="/tags/">
-				<span data-feather='tag'></span>
-				<span class="menu__text">Tags</span>
-				
-			</a>
-		</li>
-	</ul>
+	
+
+	
 </nav>
 
-	</div>
-</header>
-		<div class="wrapper flex">
-			<div class="primary">
-			
-<main class="main" role="main">
-	<article class="post">
-		<header class="post__header">
-			<h1 class="post__title">Feature flagging in webpack</h1>
-			<div class="post__meta meta"><div class="meta__item-author meta__item">
-	<svg class="meta__icon icon icon-author" width="16" height="16" viewBox="0 0 12 16"><path d="M6 1c2.2 0 3.5 2 3.5 4.5C9.5 7 8.9 8.2 8 9c2.9.8 4 2.5 4 5v1H0v-1c0-2.5 1.1-4.2 4-5-.9-.8-1.5-2-1.5-3.5C2.5 3 3.8 1 6 1z"/></svg><span class="meta__text">Gagandeep Singh</span>
-</div>
-<div class="meta__item-datetime meta__item">
-	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 30 28"><path d="M15 0C7 0 1 6 1 14s6 14 14 14 14-6 14-14S23 0 15 0zm0 25C9 25 4 20 4 14S9 3 15 3s11 5 11 11-5 11-11 11zm1-18h-2v8.4l6.8 4.4L22 18l-6-3.8V7z"/></svg><time class="meta__text" datetime="2022-11-02T00:00:00Z">02-11-2022</time></div><div class="meta__item-categories meta__item"><svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg><span class="meta__text"><a class="meta__link" href="/categories/webpack/" rel="category">webpack</a>
-	</span>
-</div></div>
-		</header>
-		<div class="content post__content clearfix">
-			<p>Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use <em>feature flag</em> is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on.</p>
-<p><a href="https://webpack.js.org/">Webpack</a> allows <em>feature flags</em> which can be used to switch on/off a feature on demand using the <em><strong>DefinePlugin</strong></em>.</p>
+
+    <main class="main">
+      
+
+<section id="single">
+    <h1 class="title">Feature flagging in webpack</h1>
+
+    <div class="tip">
+        <time datetime="2022-11-02 00:00:00 &#43;0000 UTC">Nov 2, 2022</time>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          165 words
+        </span>
+        <span class="split">
+          ·
+        </span>
+        <span>
+          1 minute read
+        </span>
+    </div>
+
+    
+    
+
+
+    <div class="content">
+      <p>Agile methodologies allows for smaller release to production fairly quickly. This could result in more feature branches/pull requests being created to enable/disable some feature specially when something needs to be tested on production. Other main advantage to use <em>feature flag</em> is that we don&rsquo;t need to wait for a feature to be completed before it could be deployed to production. The feature flag for that particular feature could be switched off and once the whole feature is completed, tested and deployed to production, the feature flag can again be turned on.</p>
+<p><a href="https://webpack.js.org/" target="_blank" rel="noopener">Webpack</a> allows <em>feature flags</em> which can be used to switch on/off a feature on demand using the <em><strong>DefinePlugin</strong></em>.</p>
 <p>As per webpack <em>“The DefinePlugin allows you to create global constants which can be configured at compile time.”</em></p>
 <p>For example, we can create a global constant FEATURE_IN_PROGRESS like below.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">new</span> <span style="color:#a6e22e">webpack</span>.<span style="color:#a6e22e">DefinePlugin</span>({
@@ -126,56 +87,47 @@ if (!doNotTrack) {
   <span style="color:#a6e22e">console</span>.<span style="color:#a6e22e">log</span>(<span style="color:#e6db74">&#34;This feature is still in progress and not production ready&#34;</span>);
 }
 </code></pre></div>
-		</div>
-		<footer class="post__footer">
-			
-<div class="post__tags tags clearfix">
-	<svg class="tags__badge icon icon-tag" width="16" height="16" viewBox="0 0 32 32"><path d="M32 19c0 1-1 2-1 2L21 31s-1 1-2 1-2-1-2-1L2 16c-1-1-1.4-2-1.4-2S0 12.5 0 11V3C0 1.5.8.8.8.8S1.5 0 3 0h8c1.5 0 3 .6 3 .6S15 1 16 2l15 15s1 1 1 2zM7 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
-	<ul class="tags__list">
-		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/webpack/" rel="tag">webpack</a>
-		</li>
-		<li class="tags__item">
-			<a class="tags__link btn" href="/tags/feature-flag/" rel="tag">feature flag</a>
-		</li>
-	</ul>
-</div>
-		</footer>
-	</article>
-</main>
+    </div>
+
+    
+        <div class="tags">
+            
+                <a href="https://pixxstudios.github.io/tags/webpack">webpack</a>
+            
+                <a href="https://pixxstudios.github.io/tags/feature-flag">feature flag</a>
+            
+        </div>
+    
+    
+    
+
+</section>
 
 
-<nav class="pager flex">
-	<div class="pager__item pager__item--prev">
-		<a class="pager__link" href="/posts/18.-various-loops-in-javascript/" rel="prev">
-			<span class="pager__subtitle">«&thinsp;Previous</span>
-			<p class="pager__title">Various loops available in javascript</p>
-		</a>
-	</div>
-	<div class="pager__item pager__item--next">
-		<a class="pager__link" href="/posts/20.union-vs-intersection-types/" rel="next">
-			<span class="pager__subtitle">Next&thinsp;»</span>
-			<p class="pager__title">Typescript - Union vs Intersection types</p>
-		</a>
-	</div>
-</nav>
+    </main>
+    
+    <footer id="footer">
+    
 
+    <div class="copyright">
+    
+        Gagandeep Singh
+    
+    </div>
 
-			</div>
-			
-		</div>
-		<footer class="footer">
-	<div class="container footer__container flex">
-		
-		<div class="footer__copyright">
-			&copy; 2023 Gagandeep Singh.
-			<span class="footer__copyright-credits">Generated with <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a> and <a href="https://github.com/Vimux/Mainroad/" rel="nofollow noopener" target="_blank">Mainroad</a> theme.</span>
-		</div>
-	</div>
+    
+      <div class="powerby">
+        Powered by <a href='http://www.gohugo.io/'>Hugo</a> Theme By <a href='https://github.com/nodejh/hugo-theme-mini'>nodejh</a>
+      </div>
+    
 </footer>
-	</div>
-<script async defer src="/js/menu.js"></script>
-<script src="/js/custom.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML" async></script>
-</body>
+
+
+    
+        
+        <script src="https://pixxstudios.github.io/js/custom.js"></script>
+    
+
+
+  </body>
 </html>

@@ -13,10 +13,10 @@
       <pubDate>Sun, 04 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/5.-docker-commands/</guid>
-      <description>To run a container using an image docker run &amp;lt;image name&amp;gt; example: docker run hello-world
- Override the default command for a container docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
- Show running containers docker ps docker ps --all This will list all the containers that were ever created on your machine.
- Restart stopped containers docker start &amp;lt;container id&amp;gt; example:
+      <description>To run a container using an image 🔗docker run &amp;lt;image name&amp;gt; example: docker run hello-world
+ Override the default command for a container 🔗docker run &amp;lt;image name&amp;gt; command example: docker run busybox ls
+ Show running containers 🔗docker ps docker ps --all This will list all the containers that were ever created on your machine.
+ Restart stopped containers 🔗docker start &amp;lt;container id&amp;gt; example:
 run docker ps &amp;ndash;all to get the list of containers</description>
     </item>
     

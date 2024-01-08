@@ -35,7 +35,7 @@ To make sure that we always use the latest previous state for calculating the ne
       <pubDate>Mon, 23 Oct 2017 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/1.-container-vs-presentational-compoenents/</guid>
-      <description>Presentational/Functional/Stateless Components Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
+      <description>Presentational/Functional/Stateless Components 🔗Functional components in ReactJS is a simpler way of creating components. Some of the key features of functional components are:
  It is best suitable for components which only consists of a render method They are also called stateless components since they don&amp;rsquo;t have an internal state and just make use of props to display the data It is not a class which extends React.Component It is just a function which accepts props and returns the rendered component You can define propTypes and defaultProps on the function  let helloComponent = (props) =&amp;gt; { return( {props.</description>
     </item>
     

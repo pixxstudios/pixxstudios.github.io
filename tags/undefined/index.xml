@@ -13,10 +13,10 @@
       <pubDate>Tue, 06 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/6.-undefined-null-javascript/</guid>
-      <description>undefined In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
+      <description>undefined 🔗In Javascript undefined (a primitive type in Javascript) gets assigned to a variable that we declare but don&amp;rsquo;t assign a value to. It&amp;rsquo;s Javascript&amp;rsquo;s way of telling that the value of this variable is not defined.
 Even a function in Javascript which does not return anything, will return undefined by default.
 So, to avoid any error we should never assign undefined to a variable manually.
-typeof undefined; outputs: undefined;  null Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
+typeof undefined; outputs: undefined;  null 🔗Unlike undefined, null (another primitive type in Javascript) is used when we want to manually or intentionally set the value of a variable to be empty.</description>
     </item>
     
   </channel>

@@ -13,7 +13,7 @@
       <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
       
       <guid>https://pixxstudios.github.io/posts/8.-go-slice-vs-array/</guid>
-      <description>Arrays Like any other programming language, arrays in Go are used to group elements of same type and has a fixed length together. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
+      <description>Arrays 🔗Like any other programming language, arrays in Go are used to group elements of same type and has a fixed length together. Whenever an array is declared or initialized the type of array has to be defined. Type of elements and the length are both used to defined the type of the array. For example, the array below can store string values and it&amp;rsquo;s length is 4, so its type is [4]string.</description>
     </item>
     
   </channel>
